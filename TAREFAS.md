@@ -15,8 +15,8 @@ O projeto estará **concluído** quando:
 - [x] Os **10 álbuns de estúdio** tiverem `album.yaml` completo e todas as faixas em YAML
 - [x] **100%** das faixas vocais com letra conferida, tradução 1:1 e referências
 - [x] **100%** das faixas instrumentais com resumo e contexto
-- [ ] `python scripts/validate.py` passando sem erros
-- [ ] Site em `site/` gerado e navegável (home → álbum → faixa)
+- [x] python scripts/validate.py passando sem erros
+- [x] Site em site/ gerado e navegável (home → álbum → faixa)
 - [x] Site publicado e acessível no **GitHub Pages**
 - [x] Tabela de status do README atualizada com tudo ✅.
 
