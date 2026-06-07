@@ -1,0 +1,93 @@
+# Lullaby for Lucifer — Holy Land (1996)
+id: 02-holy-land-10-lullaby-for-lucifer
+album_id: 02-holy-land
+track_number: 10
+title: Lullaby for Lucifer
+language: en
+authors:
+- Kiko Loureiro
+- Rafael Bittencourt
+duration: '2:42'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: On the sand, by the sea
+    translation: Na areia, à beira-mar
+    notes: ''
+  - original: I left my heart to shed my grief
+    translation: Deixei meu coração para derramar minha dor
+    notes: ''
+  - original: 'A vulture came begging me:'
+    translation: 'Um abutre veio me implorar:'
+    notes: ''
+  - original: '- Feed me with this piece of meat!'
+    translation: '- Alimente-me com este pedaço de carne!'
+    notes: ''
+  - original: I won't give away
+    translation: Não entregarei
+    notes: ''
+  - original: Something I need
+    translation: Algo de que preciso
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: On a garden nursery
+    translation: Num jardim infantil
+    notes: ''
+  - original: I let my fancy wander free
+    translation: Deixei minha imaginação vagar livre
+    notes: ''
+  - original: Children playing around a tree
+    translation: Crianças brincando ao redor de uma árvore
+    notes: ''
+  - original: Sharing apples happily
+    translation: Compartilhando maçãs alegremente
+    notes: ''
+  - original: Come and rest with me
+    translation: Venha descansar comigo
+    notes: ''
+  - original: Lay your hands on dreams
+    translation: Coloque suas mãos sobre os sonhos
+    notes: ''
+- section: Outro
+  lines:
+  - original: I'll wait here by your side
+    translation: Esperarei aqui ao seu lado
+    notes: ''
+  - original: 'till you fall asleep'
+    translation: até você adormecer
+    notes: ''
+  - original: I'll wait until you cry
+    translation: Esperarei até você chorar
+    notes: ''
+  - original: All over me the tears you hide inside...
+    translation: Sobre mim as lágrimas que você esconde por dentro...
+    notes: ''
+research:
+  summary: Canção de ninar sombria que contrasta inocência infantil (crianças, maçãs, jardim)
+    com imagens de abutre, carne e Lúcifer — encerrando o álbum com melancolia e perda de pureza.
+  themes:
+  - inocência
+  - perda
+  - Lúcifer
+  - melancolia
+  context: Composta por Kiko Loureiro e Rafael Bittencourt; faixa de encerramento mais curta e
+    intimista de Holy Land. O título provocativo ("Lullaby for Lucifer") sugere embalar o mal
+    ou a queda, ecoando simbolicamente a destruição do paraíso americano narrada ao longo do disco.
+  interpretation: |
+    A recusa em alimentar o abutre com "algo de que preciso" preserva o último
+    resquício de humanidade; as lágrimas escondidas no final sugerem luto pela inocência perdida
+    — do Éden ao Brasil colonizado.
+  references:
+  - title: DarkLyrics — Holy Land (1996)
+    url: http://www.darklyrics.com/lyrics/angra/holyland.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Lullaby for Lucifer — Vagalume
+    url: https://www.vagalume.com.br/angra/lullaby-for-lucifer.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

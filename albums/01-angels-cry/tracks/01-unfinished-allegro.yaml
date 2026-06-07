@@ -1,0 +1,36 @@
+# Unfinished Allegro — Angels Cry (1993)
+id: 01-angels-cry-01-unfinished-allegro
+album_id: 01-angels-cry
+track_number: 1
+title: Unfinished Allegro
+language: instrumental
+authors:
+- Franz Schubert
+- Andre Matos
+duration: '1:13'
+instrumental: true
+instrumental_description: Intro instrumental baseado no primeiro movimento (Allegro moderato) da Sinfonia
+  n.º 8 em si menor, D. 759 — a "Sinfonia Inacabada" — de Franz Schubert, adaptado por Andre Matos com
+  arranjo de power metal. Funciona como prelúdio clássico que anuncia a ambição artística do álbum.
+research:
+  summary: Abertura instrumental que cita Schubert, estabelecendo desde o primeiro minuto a fusão entre
+    erudição clássica e metal progressivo que define Angels Cry.
+  themes:
+  - citação clássica
+  - prelúdio
+  - power metal
+  context: Matos adaptou trecho da Sinfonia Inacabada como porta de entrada do disco. A escolha simboliza
+    a juventude e a ousadia da banda ao dialogar com o repertório erudito europeu no contexto de uma gravação
+    alemã.
+  references:
+  - title: DarkLyrics — Angels Cry (1993)
+    url: http://www.darklyrics.com/lyrics/angra/angelscry.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Angels Cry (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Angels_Cry_(album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

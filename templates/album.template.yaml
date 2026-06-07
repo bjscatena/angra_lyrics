@@ -1,0 +1,44 @@
+# Template de referência — copiar para albums/{slug}/album.yaml
+id: "01-angels-cry"
+title: "Angels Cry"
+type: "studio"
+release:
+  date: "1993-10-01"
+  label: "Eldorado"
+  countries: ["Brazil", "Japan", "Europe"]
+
+lineup:
+  - name: "Andre Matos"
+    role: "vocals"
+  - name: "Rafael Bittencourt"
+    role: "guitars, backing vocals"
+
+tracklist:
+  - number: 1
+    file: "01-unfinished-allegro.yaml"
+    title: "Unfinished Allegro"
+    duration: "1:30"
+    instrumental: true
+  - number: 2
+    file: "02-carry-on.yaml"
+    title: "Carry On"
+    duration: "4:27"
+    instrumental: false
+
+history:
+  summary: |
+    Parágrafo introdutório: conceito, momento na carreira, recepção.
+  recording: |
+    Estúdios, produtores, curiosidades de gravação.
+  concept: |
+    Fio condutor temático do álbum.
+  reception: |
+    Crítica, charts, legado.
+  references:
+    - title: "Fonte de referência"
+      url: "https://..."
+      type: "article"
+
+assets:
+  cover: "assets/cover.jpg"
+  gallery: []

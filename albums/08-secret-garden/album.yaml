@@ -1,0 +1,116 @@
+id: "08-secret-garden"
+title: "Secret Garden"
+type: "studio"
+release:
+  date: "2014-12-17"
+  label: "Victor Entertainment (Japan) / Universal Music (Brazil) / earMUSIC (Europe)"
+  countries: ["Japan", "Brazil", "Europe", "North America", "Argentina"]
+
+lineup:
+  - name: "Fabio Lione"
+    role: "lead vocals"
+  - name: "Kiko Loureiro"
+    role: "guitars, backing vocals, keyboard arrangements"
+  - name: "Rafael Bittencourt"
+    role: "guitars, backing vocals, lead vocals on select tracks"
+  - name: "Felipe Andreoli"
+    role: "bass, keyboards arrangements, backing vocals"
+  - name: "Ricardo Confessori"
+    role: "drums"
+
+tracklist:
+  - number: 1
+    file: "01-newborn-me.yaml"
+    title: "Newborn Me"
+    duration: "6:13"
+    instrumental: false
+  - number: 2
+    file: "02-black-hearted-soul.yaml"
+    title: "Black Hearted Soul"
+    duration: "4:48"
+    instrumental: false
+  - number: 3
+    file: "03-final-light.yaml"
+    title: "Final Light"
+    duration: "4:24"
+    instrumental: false
+  - number: 4
+    file: "04-storm-of-emotions.yaml"
+    title: "Storm of Emotions"
+    duration: "4:56"
+    instrumental: false
+  - number: 5
+    file: "05-violet-sky.yaml"
+    title: "Violet Sky"
+    duration: "4:48"
+    instrumental: false
+  - number: 6
+    file: "06-secret-garden.yaml"
+    title: "Secret Garden"
+    duration: "4:03"
+    instrumental: false
+  - number: 7
+    file: "07-upper-levels.yaml"
+    title: "Upper Levels"
+    duration: "6:28"
+    instrumental: false
+  - number: 8
+    file: "08-crushing-room.yaml"
+    title: "Crushing Room"
+    duration: "5:07"
+    instrumental: false
+  - number: 9
+    file: "09-perfect-symmetry.yaml"
+    title: "Perfect Symmetry"
+    duration: "4:22"
+    instrumental: false
+  - number: 10
+    file: "10-silent-call.yaml"
+    title: "Silent Call"
+    duration: "3:48"
+    instrumental: false
+
+history:
+  summary: |
+    Secret Garden é o oitavo álbum de estúdio da Angra e marca a estreia de Fabio Lione nos
+    vocais principais após a saída de Edu Falaschi, além do retorno de Ricardo Confessori na
+    bateria. Lançado em dezembro de 2014 no Japão e em janeiro de 2015 no Brasil e na Europa,
+    o disco foi gravado em agosto de 2014 na Fascination Street Studios (Örebro, Suécia) com
+    produção de Jens Bogren e pré-produção de Roy Z. É também o último álbum de estúdio com
+    Kiko Loureiro antes de sua saída para o Megadeth.
+  recording: |
+    Gravado em agosto de 2014 na Fascination Street Studios, Örebro, Suécia. Produção e
+    gravação por Jens Bogren; pré-produção por Roy Z. Arte de capa concebida e criada por
+    Rodrigo Bastos Didier, com co-concepção de Rafael Bittencourt. Participações especiais:
+    Simone Simons (Epica) em "Secret Garden" e Doro Pesch em "Crushing Room". A edição
+    japonesa padrão (VICP-65276) contém 10 faixas; edições europeias e digitais incluem
+    "Synchronicity II" (cover de The Police) como faixa bônus.
+  concept: |
+    O álbum explora temas de renascimento interior, dualidade da mente, superação emocional
+    e busca espiritual — o "jardim secreto" como refúgio simbólico. "Newborn Me" abre com
+    conflito entre os hemisférios cerebrais e renascimento pessoal; "Black Hearted Soul" une
+    coral latino a power metal sobre proteção emocional; "Final Light" e "Storm of Emotions"
+    tratam de autoconhecimento e coragem diante das emoções; "Violet Sky" examina o passado
+    irremediável; o título "Secret Garden" (balada com Simone Simons) personifica o paraíso
+    íntimo; "Upper Levels" e "Crushing Room" ampliam a reflexão existencial; "Perfect Symmetry"
+    e "Silent Call" fecham com mensagem universal e epifania sob o sol da meia-noite sueca.
+  reception: |
+    Secret Garden alcançou a 20ª posição no Oricon japonês, 174ª na França (SNEP) e 195ª
+    na Bélgica (Ultratop Wallonia). Críticas destacaram a integração de Fabio Lione e a
+    diversidade entre faixas progressivas e power metal clássico, embora alguns críticos
+    considerassem a segunda metade menos consistente. Singles "Black Hearted Soul" e
+    "Secret Garden" tiveram videoclipes; o disco preparou o terreno para ØMNI (2018).
+  references:
+    - title: "Secret Garden (album) — Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Secret_Garden_(album)"
+      type: "article"
+    - title: "Secret Garden — MusicBrainz"
+      url: "https://musicbrainz.org/release/7fc5a42c-aae3-4168-a0ca-919f4e672100"
+      type: "database"
+    - title: "Angra — Secret Garden — Metal Archives"
+      url: "https://www.metal-archives.com/albums/Angra/Secret_Garden/478789"
+      type: "database"
+
+assets:
+  cover: "assets/cover.jpg"
+  gallery: []

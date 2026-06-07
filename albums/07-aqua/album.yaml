@@ -1,0 +1,116 @@
+id: "07-aqua"
+title: "Aqua"
+type: "studio"
+release:
+  date: "2010-08-17"
+  label: "Voice Music / SPV-Steamhammer / JVC Victor"
+  countries: ["Brazil", "Japan", "Germany", "Europe", "Argentina"]
+
+lineup:
+  - name: "Edu Falaschi"
+    role: "lead vocals"
+  - name: "Kiko Loureiro"
+    role: "guitars, backing vocals"
+  - name: "Rafael Bittencourt"
+    role: "guitars, backing vocals"
+  - name: "Felipe Andreoli"
+    role: "bass, additional guitars on #04, backing vocals"
+  - name: "Ricardo Confessori"
+    role: "drums, additional percussion"
+
+tracklist:
+  - number: 1
+    file: "01-viderunt-te-aquae.yaml"
+    title: "Viderunt te Aquæ"
+    duration: "0:59"
+    instrumental: true
+  - number: 2
+    file: "02-arising-thunder.yaml"
+    title: "Arising Thunder"
+    duration: "4:52"
+    instrumental: false
+  - number: 3
+    file: "03-awake-from-darkness.yaml"
+    title: "Awake from Darkness"
+    duration: "5:54"
+    instrumental: false
+  - number: 4
+    file: "04-lease-of-life.yaml"
+    title: "Lease of Life"
+    duration: "4:33"
+    instrumental: false
+  - number: 5
+    file: "05-the-rage-of-the-waters.yaml"
+    title: "The Rage of the Waters"
+    duration: "5:33"
+    instrumental: false
+  - number: 6
+    file: "06-spirit-of-the-air.yaml"
+    title: "Spirit of the Air"
+    duration: "5:22"
+    instrumental: false
+  - number: 7
+    file: "07-hollow.yaml"
+    title: "Hollow"
+    duration: "5:30"
+    instrumental: false
+  - number: 8
+    file: "08-a-monster-in-her-eyes.yaml"
+    title: "A Monster in Her Eyes"
+    duration: "5:15"
+    instrumental: false
+  - number: 9
+    file: "09-weakness-of-a-man.yaml"
+    title: "Weakness of a Man"
+    duration: "6:12"
+    instrumental: false
+  - number: 10
+    file: "10-ashes.yaml"
+    title: "Ashes"
+    duration: "5:05"
+    instrumental: false
+
+history:
+  summary: |
+    Aqua é o sétimo álbum de estúdio da Angra e o último com Edu Falaschi nos vocais principais.
+    Lançado em agosto de 2010, marca o retorno do baterista Ricardo Confessori — ausente desde
+    a saída da formação clássica em 2000 — e consolida um disco conceitual inspirado em A
+    Tempestade de William Shakespeare, onde a água funciona como elemento narrativo central:
+    fúria das marés, tempestades e calmaria redentora numa ilha isolada.
+  recording: |
+    Gravado entre fevereiro e maio de 2010 no Norcal Studios (São Paulo, Brasil), com piano
+    registrado por Antti Rintamäki no Merry Fox Studios (Helsinque, Finlândia). Produção da
+    banda com Brendan Duffey e Adriano Daga (engenharia e mixagem); masterização por Maor
+    Appelbaum. Participações incluem cordas (Amon Lima, Yaniel Matos), percussão (Guga Machado),
+    teclados e orquestrações (Fabrizio Di Sarno, Nei Medeiros, Felipe Grytz), piano (Maria Ilmoniemi)
+    e coros extensos liderados por Tito Falaschi e Zeca Loureiro. No Brasil a banda optou por
+    auto-lançamento via Voice Music para manter controle sobre o produto.
+  concept: |
+    Rafael Bittencourt estruturou o álbum em torno de A Tempestade: Prospero exilado, Miranda,
+    Ariel espírito do ar, Caliban monstro e a redenção final. "Viderunt te Aquæ" abre com coral
+    latino sobre as águas; "Arising Thunder" e "Awake from Darkness" estabelecem conflito e
+    despertar; "Lease of Life" traz o romance e a promessa de recomeço; "The Rage of the Waters"
+    personifica a fúria elementar; "Spirit of the Air" e "Hollow" exploram prisão mágica e
+    vazio existencial; "A Monster in Her Eyes" e "Weakness of a Man" examinam Caliban e a
+    fragilidade humana; "Ashes" fecha com perdão, citação shakespeariana ("We are such stuff
+    as dreams are made on") e liberação da ilha — ciclo completo da tempestade à calmaria.
+  reception: |
+    Aqua recebeu críticas positivas (Danger Dog 4,75/5; BW&BK 7/10; AllMusic) e alcançou a
+    11ª posição no ABPD brasileiro, 22ª no Oricon japonês e 147ª na França. Singles "Arising
+    Thunder" e "Lease of Life" tiveram videoclipes; a edição japonesa inclui remix bônus de
+    "Lease of Life". O disco encerrou a era Falaschi e preparou Secret Garden (2014), embora
+    tensionamentos internos tenham sido relatados posteriormente pelos integrantes.
+  references:
+    - title: "Aqua (album) — Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Aqua_(Angra_album)"
+      type: "article"
+    - title: "Aqua — MusicBrainz"
+      url: "https://musicbrainz.org/release/05b1b198-7657-30b8-a8e9-b19db77bcb63"
+      type: "database"
+    - title: "Angra — Aqua — Metal Archives"
+      url: "https://www.metal-archives.com/albums/Angra/Aqua/268742"
+      type: "database"
+
+assets:
+  cover: "assets/cover.jpg"
+  gallery: []

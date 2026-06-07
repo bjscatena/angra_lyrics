@@ -1,0 +1,34 @@
+# Deus Le Volt! — Temple of Shadows (2004)
+id: 05-temple-of-shadows-01-deus-le-volt
+album_id: 05-temple-of-shadows
+track_number: 1
+title: Deus Le Volt!
+language: instrumental
+authors:
+- Kiko Loureiro
+duration: '0:54'
+instrumental: true
+instrumental_description: |
+  Intro instrumental que abre a saga do Shadow Hunter com atmosfera medieval e orquestral.
+  O título latino "Deus Le Volt" (Deus o quer / Deus assim o quer) era o grito de guerra
+  dos cruzados — estabelecendo o cenário histórico e religioso do álbum conceitual antes
+  da primeira faixa vocal "Spread Your Fire".
+research:
+  summary: Prelúdio instrumental que situa o ouvinte no universo das Cruzadas e anuncia a jornada espiritual do Caçador de Sombras.
+  themes:
+  - cruzadas
+  - prelúdio
+  - medieval
+  context: Primeira faixa do álbum conceitual; o lema cruzadista "Deus Le Volt" conecta a narrativa histórica de Rafael Bittencourt com a abertura sonora composta por Kiko Loureiro.
+  references:
+  - title: DarkLyrics — Temple of Shadows (2004)
+    url: http://www.darklyrics.com/lyrics/angra/templeofshadows.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Temple of Shadows (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Temple_of_Shadows
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

@@ -1,0 +1,113 @@
+# Cycles of Pain — Angra (2023)
+id: 10-cycles-of-pain
+title: Cycles of Pain
+type: studio
+release:
+  date: '2023-11-03'
+  label: Atomic Fire Records (international) / Voice Music (Brazil) / Victor Entertainment (Japan)
+  countries:
+  - Brazil
+  - Europe
+  - North America
+  - Japan
+lineup:
+- name: Fabio Lione
+  role: lead vocals
+- name: Rafael Bittencourt
+  role: guitars, piano (track 10), backing vocals
+- name: Marcelo Barbosa
+  role: guitars
+- name: Felipe Andreoli
+  role: bass, rhythm guitar (tracks 2, 3, 5, 6, 9, 11)
+- name: Bruno Valverde
+  role: drums, percussion
+tracklist:
+- number: 1
+  file: 01-cyclus-doloris.yaml
+  title: Cyclus Doloris
+  duration: 0:47
+  instrumental: true
+- number: 2
+  file: 02-ride-into-the-storm.yaml
+  title: Ride into the Storm
+  duration: '6:12'
+  instrumental: false
+- number: 3
+  file: 03-dead-man-on-display.yaml
+  title: Dead Man on Display
+  duration: '6:06'
+  instrumental: false
+- number: 4
+  file: 04-tide-of-changes-part-i.yaml
+  title: Tide of Changes – Part I
+  duration: '1:15'
+  instrumental: false
+- number: 5
+  file: 05-tide-of-changes-part-ii.yaml
+  title: Tide of Changes – Part II
+  duration: '5:37'
+  instrumental: false
+- number: 6
+  file: 06-vida-seca.yaml
+  title: Vida Seca
+  duration: '5:11'
+  instrumental: false
+- number: 7
+  file: 07-gods-of-the-world.yaml
+  title: Gods of the World
+  duration: '4:43'
+  instrumental: false
+- number: 8
+  file: 08-cycles-of-pain.yaml
+  title: Cycles of Pain
+  duration: '5:13'
+  instrumental: false
+- number: 9
+  file: 09-faithless-sanctuary.yaml
+  title: Faithless Sanctuary
+  duration: '6:39'
+  instrumental: false
+- number: 10
+  file: 10-here-in-the-now.yaml
+  title: Here in the Now
+  duration: '5:54'
+  instrumental: false
+- number: 11
+  file: 11-generation-warriors.yaml
+  title: Generation Warriors
+  duration: '5:08'
+  instrumental: false
+- number: 12
+  file: 12-tears-of-blood.yaml
+  title: Tears of Blood
+  duration: '5:35'
+  instrumental: false
+history:
+  summary: Cycles of Pain é o décimo álbum de estúdio da Angra e o primeiro em cinco anos após ØMNI (2018). Lançado em 3 de
+    novembro de 2023 pela Atomic Fire Records, o disco marca o retorno da banda ao power/progressive metal clássico com produção,
+    mixagem e masterização de Dennis Ward. O título — latim cyclus doloris — permeia faixas sobre impermanência, dor cotidiana,
+    desigualdade social brasileira e resiliência.
+  recording: 'Produzido por Dennis Ward (Helloween, Magnum). Participações especiais: Lenine em "Vida Seca"; Vanessa Moreno
+    em "Tide of Changes – Part II" e "Here in the Now"; Amanda Somerville e Juliana D''Agostini (piano) em "Tears of Blood".
+    Coros extensos em "Ride into the Storm" e "Cyclus Doloris". Arte de Erick Pasqua e Jonathan Canuto.'
+  concept: 'O álbum explora ciclos de sofrimento e transformação: intro latina Cyclus Doloris; dualidade humana em Ride into
+    the Storm; autoexposição em Dead Man on Display; impermanência na suíte Tide of Changes; crítica à meritocracia em Vida
+    Seca (PT/EN); manipulação política em Gods of the World; depressão cotidiana no título Cycles of Pain; crise de fé em
+    Faithless Sanctuary; presença e empatia em Here in the Now; resistência apocalíptica em Generation Warriors; traição e
+    vingança em Tears of Blood.'
+  reception: 'Recepção positiva da crítica especializada; álbum ranqueado entre os melhores de metal de 2023 no Metal Kingdom
+    (#46 do ano). Singles com videoclipes: Ride into the Storm, Tide of Changes, Vida Seca, Gods of the World e Here in the
+    Now. Consolida a era Fabio Lione/Marcelo Barbosa como sucessora natural de ØMNI.'
+  references:
+  - title: Cycles of Pain — Metal Archives
+    url: https://www.metal-archives.com/albums/Angra/Cycles_of_Pain/1158160
+    type: database
+  - title: Cycles of Pain — MusicBrainz
+    url: https://musicbrainz.org/release-group/5b09b0f0-3166-4ae5-84b1-2aa5478ac81e
+    type: database
+  - title: Angra — Cycles of Pain (Atomic Fire)
+    url: https://napalmrecords.com/english/angra-cycles-of-pain-digipak-cd.html
+    type: article
+assets:
+  cover: assets/cover.jpg
+  gallery: []

@@ -1,0 +1,104 @@
+# Deep Blue — Holy Land (1996)
+id: 02-holy-land-09-deep-blue
+album_id: 02-holy-land
+track_number: 9
+title: Deep Blue
+language: en
+authors:
+- Andre Matos
+duration: '5:50'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Three cliffs there stand
+    translation: Três penhascos ali se erguem
+    notes: ''
+  - original: High above where high winds howl
+    translation: Bem acima onde ventos fortes uivam
+    notes: ''
+  - original: Surrounding silence
+    translation: Silêncio circundante
+    notes: ''
+  - original: Three birds climb, then turn to fall
+    translation: Três pássaros sobem, depois viram para cair
+    notes: ''
+  - original: Waiting for someday when the ocean and sky
+    translation: Esperando por algum dia em que o oceano e o céu
+    notes: ''
+  - original: Will cover up the land in deep blue
+    translation: Cobrirão a terra em azul profundo
+    notes: ''
+- section: Chorus
+  lines:
+  - original: 'Renaissance is over and I wonder:'
+    translation: 'O renascimento acabou e eu me pergunto:'
+    notes: ''
+  - original: '- Should I always be the same once again?'
+    translation: '- Devo sempre ser o mesmo mais uma vez?'
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Take my hand and follow
+    translation: Pegue minha mão e siga
+    notes: ''
+  - original: Sweeping trees, the coats of green
+    translation: Árvores ondulantes, os mantos verdes
+    notes: ''
+  - original: Time has no place tomorrow
+    translation: O tempo não tem lugar amanhã
+    notes: ''
+  - original: Feel the good in endless dreams
+    translation: Sinta o bem em sonhos sem fim
+    notes: ''
+  - original: Waiting for someday when the ocean and sky
+    translation: Esperando por algum dia em que o oceano e o céu
+    notes: ''
+  - original: Will cover up the land in deep blue
+    translation: Cobrirão a terra em azul profundo
+    notes: ''
+- section: Chorus (repeat)
+  lines:
+  - original: 'Renaissance is over and I wonder:'
+    translation: 'O renascimento acabou e eu me pergunto:'
+    notes: ''
+  - original: '- Should I close my eyes and pray?'
+    translation: '- Devo fechar meus olhos e rezar?'
+    notes: ''
+  - original: '- Feel like I''ve betrayed?'
+    translation: '- Sinto que traí?'
+    notes: ''
+  - original: '- Always be the same?'
+    translation: '- Sempre ser o mesmo?'
+    notes: ''
+  - original: '... always be the same once again?'
+    translation: '... sempre ser o mesmo mais uma vez?'
+    notes: ''
+research:
+  summary: Peça contemplativa sobre penhascos, pássaros e a espera de um dilúvio que cobrirá a
+    terra em azul profundo — metáfora do fim de uma era (Renascimento) e da dúvida sobre
+    permanecer o mesmo ou buscar transformação.
+  themes:
+  - natureza
+  - renascimento
+  - transformação
+  - dilúvio
+  context: Composta por Andre Matos; uma das faixas mais atmosféricas e menos agressivas do álbum,
+    preparando o terreno para o fechamento intimista de "Lullaby for Lucifer". O título evoca
+    tanto o oceano quanto a ideia de profundidade emocional.
+  interpretation: |
+    "Deep blue" sugere tanto o mar quanto a melancolia; o fim do Renascimento
+    conecta-se ao arco histórico do álbum — após a conquista e a colonização, resta a pergunta
+    existencial sobre identidade e redenção.
+  references:
+  - title: DarkLyrics — Holy Land (1996)
+    url: http://www.darklyrics.com/lyrics/angra/holyland.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Deep Blue — Vagalume
+    url: https://www.vagalume.com.br/angra/deep-blue.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

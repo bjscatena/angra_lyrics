@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ site_title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}">
+  <meta property="og:title" content="{% block og_title %}{{ site_title }}{% endblock %}">
+  <meta property="og:description" content="{% block og_description %}{{ site_description }}{% endblock %}">
+  <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+  <meta property="og:url" content="{% block og_url %}{{ page_url }}{% endblock %}">
+  {% block og_image %}{% endblock %}
+  <link rel="icon" href="{{ asset_prefix }}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ asset_prefix }}css/style.css">
+  {% block head_extra %}{% endblock %}
+</head>
+<body data-asset-prefix="{{ asset_prefix }}">
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="{{ asset_prefix }}index.html">{{ site_title }}</a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="{{ asset_prefix }}index.html">Discografia</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Projeto de levantamento artístico — letras propriedade dos compositores.</p>
+    </div>
+  </footer>
+
+  <script src="{{ asset_prefix }}js/main.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

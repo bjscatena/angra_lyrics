@@ -1,0 +1,37 @@
+# Crossing — Holy Land (1996)
+id: 02-holy-land-01-crossing
+album_id: 02-holy-land
+track_number: 1
+title: Crossing
+language: instrumental
+authors:
+- Giovanni Pierluigi da Palestrina
+duration: '1:57'
+instrumental: true
+instrumental_description: |
+  Intro instrumental baseada em "O Crux Ave", de Giovanni Pierluigi da Palestrina (1525–1594),
+  adaptada pela Angra com arranjo de power metal. Funciona como prelúdio erudito que anuncia o
+  conceito histórico-religioso do álbum — a travessia europeia rumo ao "novo mundo" — e estabelece
+  o diálogo entre música sacra renascentista e metal progressivo que define Holy Land.
+research:
+  summary: Abertura instrumental que cita Palestrina, simbolizando a Europa cristã e a tradição
+    clássica que atravessará o oceano rumo ao Brasil, abrindo o álbum-conceito sobre descoberta e colonização.
+  themes:
+  - citação clássica
+  - travessia
+  - sacralidade
+  context: Ricardo Confessori e a banda escolheram a peça renascentista como portal sonoro para o
+    conceito de Holy Land. A faixa prepara o ouvinte para a narrativa histórica e espiritual das
+    composições seguintes, em contraste direto com a abertura schubertiana de Angels Cry.
+  references:
+  - title: DarkLyrics — Holy Land (1996)
+    url: http://www.darklyrics.com/lyrics/angra/holyland.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Holy Land (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Holy_Land_(album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

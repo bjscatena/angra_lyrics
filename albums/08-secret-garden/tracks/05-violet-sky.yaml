@@ -1,0 +1,122 @@
+# Violet Sky — Secret Garden (2014)
+id: 08-secret-garden-05-violet-sky
+album_id: 08-secret-garden
+track_number: 5
+title: Violet Sky
+language: en
+authors:
+- Kiko Loureiro
+- Rafael Bittencourt
+duration: '4:48'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: You always come to me, moaning through the years
+    translation: Você sempre vem até mim, lamentando ao longo dos anos
+    notes: ''
+  - original: About your past. And strange as it may seem, it never came to you,
+    translation: Sobre o seu passado. E por estranho que pareça, nunca lhe ocorreu,
+    notes: ''
+  - original: The way ahead
+    translation: O caminho adiante
+    notes: ''
+  - original: Fears you try to hide, hurting deep inside
+    translation: Medos que você tenta esconder, ferindo profundamente por dentro
+    notes: ''
+  - original: You can't deny the past!
+    translation: Você não pode negar o passado!
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Tears of a violet sky
+    translation: Lágrimas de um céu violeta
+    notes: ''
+  - original: Lost in the fallen rain
+    translation: Perdidas na chuva caída
+    notes: ''
+  - original: Seasons pass me by, the everlasting circle,
+    translation: Estações passam por mim, o círculo eterno,
+    notes: ''
+  - original: A wicked plan
+    translation: Um plano perverso
+    notes: ''
+  - original: Is it the destiny? Was it meant to be?
+    translation: É o destino? Era para ser?
+    notes: ''
+  - original: It will not matter anymore
+    translation: Não importará mais
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Please, it's time to break the chains
+    translation: Por favor, é hora de quebrar as correntes
+    notes: ''
+  - original: The past you cannot change
+    translation: O passado que você não pode mudar
+    notes: ''
+  - original: Time to let it go
+    translation: Hora de deixar ir
+    notes: ''
+  - original: Things you try to hide, hurting deep inside
+    translation: Coisas que você tenta esconder, ferindo profundamente por dentro
+    notes: ''
+  - original: You have to live behind!
+    translation: Você tem que viver para trás!
+    notes: ''
+- section: Chorus 2
+  lines:
+  - original: Tears of a violet sky
+    translation: Lágrimas de um céu violeta
+    notes: ''
+  - original: Lost in the fallen rain
+    translation: Perdidas na chuva caída
+    notes: ''
+  - original: Dead roses hear my cry
+    translation: Rosas mortas ouvem meu clamor
+    notes: ''
+  - original: Flowing in vain
+    translation: Fluindo em vão
+    notes: ''
+  - original: Fears you try to hide burning deep inside
+    translation: Medos que você tenta esconder queimando profundamente por dentro
+    notes: ''
+  - original: You can't deny the past!
+    translation: Você não pode negar o passado!
+    notes: ''
+- section: Bridge (Italian)
+  lines:
+  - original: Rinnega il tuo passato
+    translation: Renegue o seu passado
+    notes: ''
+  - original: Risplendi nell' oscuritá
+    translation: Resplandeça na escuridão
+    notes: ''
+  - original: Stella senza etá
+    translation: Estrela sem idade
+    notes: ''
+  - original: Riflessi di passioni
+    translation: Reflexos de paixões
+    notes: ''
+  - original: Celate tra le tenebre
+    translation: Ocultas entre as trevas
+    notes: ''
+  - original: Raggio di luce
+    translation: Raio de luz
+    notes: ''
+research:
+  summary: Balada melancólica com trecho em italiano sobre superar o passado e as lágrimas de um céu violeta.
+  themes:
+  - passado
+  - superação
+  - melancolia
+  - ciclos
+  context: Letra de Loureiro e Bittencourt; vocais principais de Rafael Bittencourt. Inclui estrofe em italiano no bridge.
+  references:
+  - title: DarkLyrics — Secret Garden (2015)
+    url: http://www.darklyrics.com/lyrics/angra/secretgarden.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

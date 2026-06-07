@@ -1,0 +1,37 @@
+﻿base_path: "/angra_lyrics"
+site_url: "https://bjscatena.github.io/angra_lyrics"
+output_dir: "site"
+site_title: "Angra Lyrics"
+site_description: "Letras, traduções e pesquisa sobre a discografia da Angra"
+
+albums:
+  - id: "01-angels-cry"
+    title: "Angels Cry"
+    year: 1993
+  - id: "02-holy-land"
+    title: "Holy Land"
+    year: 1996
+  - id: "03-fireworks"
+    title: "Fireworks"
+    year: 1998
+  - id: "04-rebirth"
+    title: "Rebirth"
+    year: 2001
+  - id: "05-temple-of-shadows"
+    title: "Temple of Shadows"
+    year: 2004
+  - id: "06-aurora-consurgens"
+    title: "Aurora Consurgens"
+    year: 2006
+  - id: "07-aqua"
+    title: "Aqua"
+    year: 2010
+  - id: "08-secret-garden"
+    title: "Secret Garden"
+    year: 2014
+  - id: "09-omni"
+    title: "ØMNI"
+    year: 2018
+  - id: "10-cycles-of-pain"
+    title: "Cycles of Pain"
+    year: 2023

@@ -1,0 +1,120 @@
+id: "02-holy-land"
+title: "Holy Land"
+type: "studio"
+release:
+  date: "1996-03-23"
+  label: "JVC Victor / Paradoxx Music / Eldorado"
+  countries: ["Brazil", "Japan", "Germany", "Europe", "Argentina"]
+
+lineup:
+  - name: "Andre Matos"
+    role: "vocals, keyboards"
+  - name: "Kiko Loureiro"
+    role: "guitars"
+  - name: "Rafael Bittencourt"
+    role: "guitars"
+  - name: "Luis Mariutti"
+    role: "bass"
+  - name: "Ricardo Confessori"
+    role: "drums"
+
+tracklist:
+  - number: 1
+    file: "01-crossing.yaml"
+    title: "Crossing"
+    duration: "1:57"
+    instrumental: true
+  - number: 2
+    file: "02-nothing-to-say.yaml"
+    title: "Nothing to Say"
+    duration: "6:24"
+    instrumental: false
+  - number: 3
+    file: "03-silence-and-distance.yaml"
+    title: "Silence and Distance"
+    duration: "5:35"
+    instrumental: false
+  - number: 4
+    file: "04-carolina-iv.yaml"
+    title: "Carolina IV"
+    duration: "10:37"
+    instrumental: false
+  - number: 5
+    file: "05-holy-land.yaml"
+    title: "Holy Land"
+    duration: "6:28"
+    instrumental: false
+  - number: 6
+    file: "06-the-shaman.yaml"
+    title: "The Shaman"
+    duration: "5:25"
+    instrumental: false
+  - number: 7
+    file: "07-make-believe.yaml"
+    title: "Make Believe"
+    duration: "5:55"
+    instrumental: false
+  - number: 8
+    file: "08-zito.yaml"
+    title: "Z.I.T.O."
+    duration: "6:06"
+    instrumental: false
+  - number: 9
+    file: "09-deep-blue.yaml"
+    title: "Deep Blue"
+    duration: "5:50"
+    instrumental: false
+  - number: 10
+    file: "10-lullaby-for-lucifer.yaml"
+    title: "Lullaby for Lucifer"
+    duration: "2:42"
+    instrumental: false
+
+history:
+  summary: |
+    Holy Land é o segundo álbum de estúdio da Angra, lançado em março de 1996 e considerado por
+    muitos críticos e fãs como a obra-prima da banda. Diferentemente de Angels Cry, que adotou
+    um som mais europeu sob a produção de Charlie Bauerfeind, este disco volta ao Brasil —
+    misturando power metal, música erudita, ritmos afro-brasileiros, percussão indígena e
+    referências históricas à descoberta e colonização do território. A capa, quando totalmente
+    aberta, revela um mapa do século XV, reforçando o conceito de "terra santa" vista pelo
+    olhar europeu. Repetiu o sucesso comercial do predecessor, conquistando disco de ouro no
+    Brasil e alcançando a 17ª posição no Oricon japonês.
+  recording: |
+    O repertório foi escrito em 1995 durante cerca de quatro meses de isolamento numa fazenda
+    em Tapiraí (SP), concluído na propriedade do baterista Ricardo Confessori. A gravação
+    principal ocorreu entre meados de 1995 e início de 1996 em Hansen Studio (Hamburgo),
+    Big House Studios (Hanôver) e HG Studio (Wolfsburg), na Alemanha. Vocais, piano e órgão
+    foram registrados no Vox Klangstudio (Bendestorf). Overdubs com instrumentos brasileiros
+    — percussão, flauta, viola, berimbau, contrabaixo acústico e coros — foram feitos no
+    Djembe Studio (São Paulo), entre agosto e outubro de 1995. Produção de Bauerfeind e
+    Sascha Paeth; mixagem por Bauerfeind em janeiro de 1996. Participações especiais incluem
+    arranjos orquestrais de Paeth, flauta de Paulo Bento, berimbau de Pixu Flores e coros
+    do Farrambamba Vocal Group.
+  concept: |
+    Álbum-conceito sobre o Brasil antes e durante a chegada dos colonizadores portugueses,
+    narrado sob perspectiva europeia e indígena. A abertura "Crossing" cita Palestrina;
+    faixas como "Nothing to Say" e "Carolina IV" evocam conquista, culpa e navegação;
+    "Holy Land" e "The Shaman" dialogam com espiritualidade nativa; "Z.I.T.O." (Zona de
+    Interesse Turístico e Outros) critica a modernidade; "Deep Blue" e "Lullaby for Lucifer"
+    fecham o ciclo com melancolia e inocência perdida. O resultado é um marco do folk/progressive
+    metal que funde erudição, identidade brasileira e virtuosismo.
+  reception: |
+    Holy Land recebeu aclamação quase unânime na imprensa especializada nacional e internacional.
+    Roadie Metal e Sputnikmusic elogiaram a ambição conceitual e a fusão de metal com percussão
+    brasileira. Metal Storm inclui o disco entre os 100 melhores álbuns de power metal. Com o
+    tempo, consolidou-se como referência do gênero e influenciou gerações de bandas brasileiras.
+  references:
+    - title: "Holy Land (album) — Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Holy_Land_(album)"
+      type: "article"
+    - title: "Holy Land — MusicBrainz"
+      url: "https://musicbrainz.org/release-group/cd0f9e6e-49ef-366f-819f-d519d28da148"
+      type: "database"
+    - title: "Holy Land, a obra-prima definitiva da carreira do Angra — Igor Miranda"
+      url: "https://igormiranda.com.br/holy-land-a-obra-prima-definitiva-da-carreira-do-angra/"
+      type: "article"
+
+assets:
+  cover: "assets/cover.jpg"
+  gallery: []

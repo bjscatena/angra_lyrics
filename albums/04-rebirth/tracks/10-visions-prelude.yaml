@@ -1,0 +1,89 @@
+# Visions Prelude — Rebirth (2001)
+id: 04-rebirth-10-visions-prelude
+album_id: 04-rebirth
+track_number: 10
+title: Visions Prelude
+language: en
+authors:
+- Kiko Loureiro
+duration: '4:32'
+instrumental: false
+lyrics:
+- section: Intro
+  lines:
+  - original: Cold wind, sad moonrise
+    translation: Vento frio, triste nascer da lua
+    notes: ''
+  - original: Dark clouds in the sky
+    translation: Nuvens escuras no céu
+    notes: ''
+  - original: Storm ends the mourning time
+    translation: Tempestade encerra o tempo de luto
+    notes: ''
+  - original: Howling in the night
+    translation: Uivando na noite
+    notes: ''
+- section: Verse 1
+  lines:
+  - original: Vision of the land
+    translation: Visão da terra
+    notes: ''
+  - original: After the horrid end
+    translation: Após o fim horrendo
+    notes: ''
+  - original: We build again from the start
+    translation: Construímos de novo desde o princípio
+    notes: ''
+  - original: Holy lenient heart
+    translation: Coração santo e indulgente
+    notes: ''
+  - original: A treasure of the land
+    translation: Um tesouro da terra
+    notes: ''
+  - original: Torments have brought the end
+    translation: Tormentos trouxeram o fim
+    notes: ''
+  - original: We build again from the start
+    translation: Construímos de novo desde o princípio
+    notes: ''
+  - original: Holy lenient heart
+    translation: Coração santo e indulgente
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Visions come from the sea
+    translation: Visões vêm do mar
+    notes: ''
+  - original: Oceans bring to me
+    translation: Oceanos me trazem
+    notes: ''
+  - original: I reach the sand with a kiss
+    translation: Alcanço a areia com um beijo
+    notes: ''
+  - original: Treasures bristling from a bliss
+    translation: Tesouros cintilando de uma beatitude
+    notes: ''
+- section: Outro
+  lines:
+  - original: (Adapted from Chopin — Op. 28 Prelude No. 20 in C minor)
+    translation: (Adaptado de Chopin — Prelúdio Op. 28 n.º 20 em dó menor)
+    notes: ''
+research:
+  summary: Peça de encerramento que une letra original a adaptação do Prelúdio de Chopin, fechando o álbum com visão de reconstrução após tormento.
+  themes:
+  - reconstrução
+  - esperança
+  - citação clássica
+  context: Kiko Loureiro adapta Chopin (Op. 28 n.º 20) como base musical; a letra espelha a temática de renascimento que permeia todo Rebirth.
+  references:
+  - title: DarkLyrics — Rebirth (2001)
+    url: http://www.darklyrics.com/lyrics/angra/rebirth.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Rebirth (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Rebirth_(Angra_album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

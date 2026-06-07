@@ -1,0 +1,153 @@
+# Caveman — ØMNI (2018)
+id: 09-omni-07-caveman
+album_id: 09-omni
+track_number: 7
+title: Caveman
+language: en
+authors:
+- Rafael Bittencourt
+- Felipe Andreoli
+- Bruno Valverde
+- Marcelo Barbosa
+duration: '5:53'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Olha o macaco na árvore
+    translation: Look at the monkey in the tree
+    notes: Português
+  - original: Ó outro naquele galho
+    translation: Oh, another one on that branch
+    notes: Português
+  - original: Onde que eu não tô vendo?
+    translation: Where am I not seeing?
+    notes: Português
+  - original: Embaixo daquela flor
+    translation: Under that flower
+    notes: Português
+  - original: Who are you?
+    translation: Quem é você?
+    notes: ''
+  - original: Quem quer matar o diabo?
+    translation: Who wants to kill the devil?
+    notes: Português
+  - original: Atire a primeira pedra
+    translation: Cast the first stone
+    notes: Português
+  - original: Who are you?
+    translation: Quem é você?
+    notes: ''
+  - original: Who are you?
+    translation: Quem é você?
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: When I realized that we all will die
+    translation: Quando percebi que todos morreremos
+    notes: ''
+  - original: Like prisoners inside this cave
+    translation: Como prisioneiros dentro desta caverna
+    notes: ''
+  - original: A thunder of truth have torn down the walls
+    translation: Um trovão de verdade derrubou os muros
+    notes: ''
+  - original: That I couldn't stop to gaze
+    translation: Que eu não conseguia parar de contemplar
+    notes: ''
+  - original: As the night went so cold
+    translation: Conforme a noite ficava tão fria
+    notes: ''
+  - original: Darkness and fire
+    translation: Escuridão e fogo
+    notes: ''
+  - original: Reflecting a world
+    translation: Refletindo um mundo
+    notes: ''
+  - original: Of inner desire
+    translation: De desejo interior
+    notes: ''
+  - original: Quem vai matar o macaco?
+    translation: Who's going to kill the monkey?
+    notes: Português
+  - original: Hey, você quer um martelo?
+    translation: Hey, do you want a hammer?
+    notes: Português
+  - original: Who are you?
+    translation: Quem é você?
+    notes: ''
+- section: Bridge
+  lines:
+  - original: Silence your mind
+    translation: Silencie sua mente
+    notes: ''
+  - original: Let me inside
+    translation: Deixe-me entrar
+    notes: ''
+  - original: No reason to be afraid
+    translation: Não há razão para ter medo
+    notes: ''
+  - original: Feelings that burn
+    translation: Sentimentos que queimam
+    notes: ''
+  - original: From thoughts without words
+    translation: De pensamentos sem palavras
+    notes: ''
+  - original: Just shadows of real things
+    translation: Apenas sombras de coisas reais
+    notes: ''
+- section: Verse 3
+  lines:
+  - original: As the seasons went on
+    translation: Conforme as estações passavam
+    notes: ''
+  - original: You survived through the days
+    translation: Você sobreviveu aos dias
+    notes: ''
+  - original: And now you've grown strong
+    translation: E agora você se fortaleceu
+    notes: ''
+  - original: You can break all these chains
+    translation: Você pode quebrar todas estas correntes
+    notes: ''
+  - original: Crossing the border line
+    translation: Cruzando a linha de fronteira
+    notes: ''
+  - original: Beyond the knowledge of man
+    translation: Além do conhecimento do homem
+    notes: ''
+  - original: One simple step
+    translation: Um simples passo
+    notes: ''
+  - original: A giant leap for mankind
+    translation: Um salto gigante para a humanidade
+    notes: ''
+  - original: Crossing the border line
+    translation: Cruzando a linha de fronteira
+    notes: ''
+  - original: The world outside the cave
+    translation: O mundo fora da caverna
+    notes: ''
+  - original: Reaching the light
+    translation: Alcançando a luz
+    notes: ''
+  - original: The future starts today
+    translation: O futuro começa hoje
+    notes: ''
+research:
+  summary: Alegoria da caverna de Platão com trechos em português e inglês, sobre prisioneiros que contemplam sombras até romper as correntes e alcançar a luz exterior.
+  themes:
+  - alegoria da caverna
+  - Platão
+  - iluminação
+  - bilingualismo
+  context: Sétima faixa de ØMNI; letra bilíngue (PT/EN) de Rafael Bittencourt. Referencia explicitamente a Alegoria da Caverna e cita "um salto gigante para a humanidade" (eco da missão Apollo 11). Trechos em português coloquial contrastam com versos filosóficos em inglês.
+  interpretation: Os macacos e a caverna simbolizam a limitação perceptiva humana; a ruptura dos muros e a travessia da "border line" representam iluminação filosófica — sair das sombras para conhecer o mundo real.
+  references:
+  - title: DarkLyrics — ØMNI (2018)
+    url: http://www.darklyrics.com/lyrics/angra/omni.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

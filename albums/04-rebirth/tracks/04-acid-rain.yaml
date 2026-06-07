@@ -1,0 +1,91 @@
+# Acid Rain — Rebirth (2001)
+id: 04-rebirth-04-acid-rain
+album_id: 04-rebirth
+track_number: 4
+title: Acid Rain
+language: en
+authors:
+- Rafael Bittencourt
+duration: '6:07'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: When the world had a tragic fate
+    translation: Quando o mundo teve um destino trágico
+    notes: ''
+  - original: We were draining the poisoned sea
+    translation: Estávamos drenando o mar envenenado
+    notes: ''
+  - original: Though the scenes were indeed too sad
+    translation: Embora as cenas fossem de fato muito tristes
+    notes: ''
+  - original: Only prayers were taking lead
+    translation: Apenas orações tomavam a liderança
+    notes: ''
+  - original: Oh! Just some of us survived
+    translation: Oh! Apenas alguns de nós sobreviveram
+    notes: ''
+  - original: At least a discent woman and a man
+    translation: Pelo menos uma mulher decente e um homem
+    notes: ''
+  - original: Wide awake! Am I alone in this place
+    translation: Bem acordado! Estou sozinho neste lugar
+    notes: ''
+  - original: Someone hear me ? my only hope!
+    translation: Alguém me ouve? minha única esperança!
+    notes: ''
+- section: Chorus
+  lines:
+  - original: The Acid Rain is burning
+    translation: A Chuva Ácida está queimando
+    notes: ''
+  - original: Right into your eyes
+    translation: Bem dentro dos seus olhos
+    notes: ''
+  - original: Again your dreams may loose the glow
+    translation: Outra vez seus sonhos podem perder o brilho
+    notes: ''
+  - original: Allow the sorrow of your thoughts to meet sunrise
+    translation: Permita que a tristeza dos seus pensamentos encontre o nascer do sol
+    notes: ''
+  - original: And shall the hopefull words
+    translation: E que as palavras esperançosas
+    notes: ''
+  - original: Bring love inside your heart
+    translation: Tragam amor dentro do seu coração
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: So the world knew a tragic fate
+    translation: Então o mundo conheceu um destino trágico
+    notes: ''
+  - original: We were draining the deadly sea
+    translation: Estávamos drenando o mar mortal
+    notes: ''
+  - original: And the scenes were indeed too sad
+    translation: E as cenas eram de fato muito tristes
+    notes: ''
+  - original: Only prayers were taking lead
+    translation: Apenas orações tomavam a liderança
+    notes: ''
+- section: Chorus (final)
+  lines:
+  - original: The Acid Rain is burning your eyes!
+    translation: A Chuva Ácida está queimando seus olhos!
+    notes: ''
+research:
+  summary: Balada pós-apocalíptica sobre sobreviventes solitários após catástrofe ambiental, simbolizada pela chuva ácida.
+  themes:
+  - apocalipse
+  - meio ambiente
+  - esperança
+  context: Uma das composições mais melódicas do álbum; Bittencourt explora desastre ecológico com tom introspectivo raro no repertório da banda.
+  references:
+  - title: DarkLyrics — Rebirth (2001)
+    url: http://www.darklyrics.com/lyrics/angra/rebirth.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

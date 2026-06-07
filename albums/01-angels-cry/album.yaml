@@ -1,0 +1,118 @@
+id: "01-angels-cry"
+title: "Angels Cry"
+type: "studio"
+release:
+  date: "1993-11-03"
+  label: "Eldorado"
+  countries: ["Brazil", "Japan", "Europe"]
+
+lineup:
+  - name: "Andre Matos"
+    role: "vocals, keyboards, piano"
+  - name: "Rafael Bittencourt"
+    role: "guitars, backing vocals"
+  - name: "Kiko Loureiro"
+    role: "guitars"
+  - name: "Luis Mariutti"
+    role: "bass"
+  - name: "Alex Holzwarth"
+    role: "drums (session)"
+
+tracklist:
+  - number: 1
+    file: "01-unfinished-allegro.yaml"
+    title: "Unfinished Allegro"
+    duration: "1:13"
+    instrumental: true
+  - number: 2
+    file: "02-carry-on.yaml"
+    title: "Carry On"
+    duration: "5:05"
+    instrumental: false
+  - number: 3
+    file: "03-time.yaml"
+    title: "Time"
+    duration: "5:57"
+    instrumental: false
+  - number: 4
+    file: "04-angels-cry.yaml"
+    title: "Angels Cry"
+    duration: "6:48"
+    instrumental: false
+  - number: 5
+    file: "05-stand-away.yaml"
+    title: "Stand Away"
+    duration: "4:57"
+    instrumental: false
+  - number: 6
+    file: "06-never-understand.yaml"
+    title: "Never Understand"
+    duration: "7:50"
+    instrumental: false
+  - number: 7
+    file: "07-wuthering-heights.yaml"
+    title: "Wuthering Heights"
+    duration: "4:39"
+    instrumental: false
+  - number: 8
+    file: "08-streets-of-tomorrow.yaml"
+    title: "Streets of Tomorrow"
+    duration: "5:03"
+    instrumental: false
+  - number: 9
+    file: "09-evil-warning.yaml"
+    title: "Evil Warning"
+    duration: "6:42"
+    instrumental: false
+  - number: 10
+    file: "10-lasting-child.yaml"
+    title: "Lasting Child"
+    duration: "7:34"
+    instrumental: false
+
+history:
+  summary: |
+    Angels Cry é o álbum de estreia da Angra, lançado em novembro de 1993 e gravado na
+    Alemanha com a produção de Charlie Bauerfeind e Sascha Paeth. O disco consolidou a
+    banda brasileira no cenário internacional do power/progressive metal, combinando
+    virtuosismo, orquestrações e referências clássicas com letras em inglês conduzidas
+    por Andre Matos. Foi um marco para o metal feito no Brasil e abriu caminho para o
+    sucesso posterior da banda, especialmente no Japão.
+  recording: |
+    As sessões ocorreram entre julho e setembro de 1993 no Hansen Studios (Hamburgo,
+    estúdio de Kai Hansen, do Gamma Ray) e no Horus Sound Studio (Hanover), com mixagem
+    no VOX Klangstudio em Bendestorf. Sascha Paeth programou teclados e contribuiu como
+    guitarrista convidado; Kai Hansen e Dirk Schlächter (Gamma Ray) e o próprio Paeth
+    participam com solos em "Never Understand". Thomas Nack (baterista do Gamma Ray na
+    época) tocou bateria na cover de "Wuthering Heights". O baterista fundador Marcos
+    Antunes foi substituído por Alex Holzwarth a pedido dos produtores; Ricardo
+    Confessori aparece nas fotos promocionais, mas só entrou na banda após a gravação.
+    Andre Matos descreveu o processo como um "exílio" dentro de um bunker da Segunda
+    Guerra Mundial, sem janelas nem luz natural.
+  concept: |
+    O álbum equilibra faixas épicas de power metal com passagens progressivas e citações
+    clássicas (Schubert, Paganini, Vivaldi, Mendelssohn) e até referências brasileiras
+    ("Asa Branca" em "Never Understand"). Tematicamente, as letras de Matos e
+    Bittencourt exploram superação, espiritualidade, injustiça social e busca de sentido —
+    um discurso melódico e grandioso típico do power metal dos anos 1990, com matizes
+    progressivos na composição.
+  reception: |
+    Angels Cry recebeu críticas positivas no meio metal internacional (Metal Storm 8,6/10;
+    Scream Magazine 5/6) e alcançou a 17ª posição no Oricon japonês. O álbum é
+    frequentemente citado como um dos discos fundadores do power metal latino-americano
+    e permanece referência na discografia da banda, com reedições e comemorações
+    (incluindo edição especial de 30 anos em 2023).
+  references:
+    - title: "Angels Cry (album) — Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Angels_Cry_(album)"
+      type: "article"
+    - title: "Angra — Metal Express Radio review"
+      url: "https://www.metalexpressradio.com/2004/08/06/angra-angels-cry/"
+      type: "article"
+    - title: "Angels Cry — MusicBrainz"
+      url: "https://musicbrainz.org/release-group/10d43270-60cb-3779-9fb9-e431d2da5e5a"
+      type: "database"
+
+assets:
+  cover: "assets/cover.jpg"
+  gallery: []

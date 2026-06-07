@@ -1,0 +1,94 @@
+# Mystery Machine — Fireworks (1998)
+id: 03-fireworks-06-mystery-machine
+album_id: 03-fireworks
+track_number: 6
+title: Mystery Machine
+language: en
+authors:
+- Chris Tsangarides
+- Ricardo Confessori
+- Rafael Bittencourt
+- Kiko Loureiro
+- Andre Matos
+duration: '4:11'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: The sun rises over the tide
+    translation: O sol nasce sobre a maré
+    notes: ''
+  - original: Waves breaking over the rocks
+    translation: Ondas quebrando sobre as rochas
+    notes: ''
+  - original: Again and again like an echo
+    translation: De novo e de novo como um eco
+    notes: ''
+  - original: From the mountine tops
+    translation: Dos topos das montanhas
+    notes: ''
+  - original: This feeling you just can't hide
+    translation: Esse sentimento que você simplesmente não pode esconder
+    notes: ''
+  - original: Like an open page revealed for all to see
+    translation: Como uma página aberta revelada para todos verem
+    notes: ''
+  - original: You breathe hard,
+    translation: Você respira com dificuldade,
+    notes: ''
+  - original: Like the sea breeze coming in
+    translation: Como a brisa do mar chegando
+    notes: ''
+- section: Pre-Chorus
+  lines:
+  - original: Hold your arms to the sky
+    translation: Erga os braços para o céu
+    notes: ''
+  - original: Don't let clouds hide the sun
+    translation: Não deixe as nuvens esconderem o sol
+    notes: ''
+  - original: Don't runaway cos' you can't hide from thunder
+    translation: Não fuja porque você não pode se esconder do trovão
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Cold sweat glistening on your brow
+    translation: Suor frio brilhando em sua testa
+    notes: ''
+  - original: The rains will come crashing down
+    translation: As chuvas virão desabando
+    notes: ''
+  - original: A million voices sing out loud again tonight
+    translation: Um milhão de vozes cantam alto outra vez esta noite
+    notes: ''
+  - original: As the mysteries of life begin to unfold
+    translation: Enquanto os mistérios da vida começam a se desdobrar
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Master of fate you're the only one who knows
+    translation: Mestre do destino, você é o único que sabe
+    notes: ''
+  - original: Machine of mystery roles on
+    translation: A máquina do mistério segue em frente
+    notes: ''
+research:
+  summary: Faixa atmosférica sobre ciclos naturais, tempestades iminentes e mistérios da existência — o destino como "máquina do mistério" que segue inexorável.
+  themes:
+  - destino
+  - natureza
+  - mistério existencial
+  context: Letra co-escrita por Tsangarides e Confessori; uma das composições mais colaborativas do álbum. Tom mais leve e progressivo no meio do disco.
+  interpretation: Imagens marítimas e climáticas funcionam como metáfora de revelação — não se pode fugir do trovão (consequências), mas os mistérios da vida se desdobram inevitavelmente.
+  references:
+  - title: DarkLyrics — Fireworks (1998)
+    url: http://www.darklyrics.com/lyrics/angra/fireworks.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Fireworks (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Fireworks_(Angra_album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

@@ -1,0 +1,120 @@
+# Speed — Fireworks (1998)
+id: 03-fireworks-10-speed
+album_id: 03-fireworks
+track_number: 10
+title: Speed
+language: en
+authors:
+- Andre Matos
+- Kiko Loureiro
+duration: '5:57'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Speed, run the thoughts inside your brain
+    translation: Velocidade, corra os pensamentos dentro do seu cérebro
+    notes: ''
+  - original: Try to catch them once
+    translation: Tente pegá-los uma vez
+    notes: ''
+  - original: And you'll be alone
+    translation: E você estará sozinho
+    notes: ''
+  - original: There's nowhere to go
+    translation: Não há para onde ir
+    notes: ''
+- section: Pre-Chorus
+  lines:
+  - original: Speed, all the memories will come
+    translation: Velocidade, todas as memórias virão
+    notes: ''
+  - original: Try to make them live
+    translation: Tente fazê-las viver
+    notes: ''
+  - original: And you'll get so lost
+    translation: E você se perderá tanto
+    notes: ''
+  - original: From the present to the past
+    translation: Do presente ao passado
+    notes: ''
+- section: Chorus
+  lines:
+  - original: With speed we go
+    translation: Com velocidade vamos
+    notes: ''
+  - original: But still don't know
+    translation: Mas ainda não sabemos
+    notes: ''
+  - original: What's hidden in there
+    translation: O que está escondido ali
+    notes: ''
+  - original: Out time is over!
+    translation: Nosso tempo acabou!
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Speed, like a thunderbolt
+    translation: Velocidade, como um raio
+    notes: ''
+  - original: The future will take its place
+    translation: O futuro tomará seu lugar
+    notes: ''
+  - original: Then could you stop time
+    translation: Então você poderia parar o tempo
+    notes: ''
+  - original: Perhaps when you die?
+    translation: Talvez quando morrer?
+    notes: ''
+- section: Chorus (repeat)
+  lines:
+  - original: With speed we go
+    translation: Com velocidade vamos
+    notes: ''
+  - original: But still don't know
+    translation: Mas ainda não sabemos
+    notes: ''
+  - original: What's hidden in there
+    translation: O que está escondido ali
+    notes: ''
+  - original: Out time is over!
+    translation: Nosso tempo acabou!
+    notes: ''
+- section: Bridge / Outro
+  lines:
+  - original: Faster than light we will find
+    translation: Mais rápido que a luz encontraremos
+    notes: ''
+  - original: A way out of the conscience
+    translation: Uma saída da consciência
+    notes: ''
+  - original: And the more we know, more we'll mind
+    translation: E quanto mais soubermos, mais nos importaremos
+    notes: ''
+  - original: It's matter of patience,
+    translation: É questão de paciência,
+    notes: ''
+  - original: Always...
+    translation: Sempre...
+    notes: ''
+research:
+  summary: Fechamento filosófico do álbum sobre velocidade do pensamento, memória e tempo — correr mais rápido que a luz buscando escapar da consciência.
+  themes:
+  - tempo
+  - memória
+  - consciência
+  - velocidade
+  context: Letra de Matos, música de Kiko Loureiro; encerra Fireworks com tom reflexivo após a balada "Gentle Change". Música de Loureiro demonstra sua veia composicional crescente na banda.
+  interpretation: A repetição de "Speed" como imperativo e substantivo sugere que acelerar pensamentos e memórias não revela o que está escondido — apenas consome o tempo disponível até o fim.
+  references:
+  - title: DarkLyrics — Fireworks (1998)
+    url: http://www.darklyrics.com/lyrics/angra/fireworks.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Fireworks (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Fireworks_(Angra_album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

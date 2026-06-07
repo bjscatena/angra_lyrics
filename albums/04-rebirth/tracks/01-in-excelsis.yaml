@@ -1,0 +1,31 @@
+# In Excelsis — Rebirth (2001)
+id: 04-rebirth-01-in-excelsis
+album_id: 04-rebirth
+track_number: 1
+title: In Excelsis
+language: instrumental
+authors:
+- Kiko Loureiro
+- Rafael Bittencourt
+duration: '1:03'
+instrumental: true
+instrumental_description: Intro instrumental neoclássico que abre o álbum com arranjo orquestral e guitarras, estabelecendo o tom épico e progressivo de Rebirth antes do impacto de "Nova Era".
+research:
+  summary: Prelúdio instrumental que funciona como portal sonoro para a nova fase da Angra pós-reformulação.
+  themes:
+  - prelúdio
+  - neoclassical metal
+  - renascimento
+  context: Abre Rebirth como statement de recomeço; o título latino "In Excelsis" (nas alturas) dialoga com a temática espiritual e redentora do disco.
+  references:
+  - title: DarkLyrics — Rebirth (2001)
+    url: http://www.darklyrics.com/lyrics/angra/rebirth.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Rebirth (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Rebirth_(Angra_album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

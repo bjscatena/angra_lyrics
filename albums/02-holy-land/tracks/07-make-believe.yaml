@@ -1,0 +1,169 @@
+# Make Believe — Holy Land (1996)
+id: 02-holy-land-07-make-believe
+album_id: 02-holy-land
+track_number: 7
+title: Make Believe
+language: en
+authors:
+- Rafael Bittencourt
+- Andre Matos
+duration: '5:55'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Sat beside the meadow
+    translation: Sentado ao lado do prado
+    notes: ''
+  - original: Watching weeds agrow
+    translation: Observando as ervas crescerem
+    notes: ''
+  - original: Cleaned up all the ashes
+    translation: Limpei todas as cinzas
+    notes: ''
+  - original: Of my soul
+    translation: Da minha alma
+    notes: ''
+  - original: Wrote down my own sentence
+    translation: Escrevi minha própria sentença
+    notes: ''
+  - original: Now you take your way
+    translation: Agora você segue seu caminho
+    notes: ''
+  - original: Fades the last remembrance
+    translation: Desvanece a última lembrança
+    notes: ''
+  - original: Of your lovely pretty face
+    translation: Do seu rosto lindo e belo
+    notes: ''
+  - original: I, after all,
+    translation: Eu, afinal,
+    notes: ''
+  - original: Just a lonely man - a lonely heart!
+    translation: Apenas um homem solitário — um coração solitário!
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Working on the future
+    translation: Trabalhando no futuro
+    notes: ''
+  - original: Floating on fate
+    translation: Flutuando no destino
+    notes: ''
+  - original: Faced the circunstances
+    translation: Enfrentei as circunstâncias
+    notes: ''
+  - original: Cleared up the shades, so
+    translation: Dissipei as sombras, então
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Make believe
+    translation: Finja
+    notes: ''
+  - original: There's no sorrow in your eyes
+    translation: Que não há tristeza em seus olhos
+    notes: ''
+  - original: Can't you see
+    translation: Você não vê
+    notes: ''
+  - original: We could never get back from the start
+    translation: Que nunca poderíamos voltar ao início
+    notes: ''
+  - original: Minutes waiting, life's been wasted
+    translation: Minutos esperando, a vida foi desperdiçada
+    notes: ''
+  - original: ... maybe
+    translation: ... talvez
+    notes: ''
+  - original: I wanna die some other day
+    translation: Eu queira morrer em outro dia
+    notes: ''
+- section: Bridge
+  lines:
+  - original: Hear the whispers of your hope
+    translation: Ouça os sussurros da sua esperança
+    notes: ''
+  - original: The answer wasn't told
+    translation: A resposta não foi dita
+    notes: ''
+  - original: No, don't laugh seeing me cry
+    translation: Não, não ria ao me ver chorar
+    notes: ''
+  - original: The end I've left behind
+    translation: O fim que deixei para trás
+    notes: ''
+  - original: (... the whispers of your hope are left behind!)
+    translation: (... os sussurros da sua esperança ficaram para trás!)
+    notes: ''
+- section: Chorus (repeat)
+  lines:
+  - original: Make believe
+    translation: Finja
+    notes: ''
+  - original: There's no sorrow in your eyes
+    translation: Que não há tristeza em seus olhos
+    notes: ''
+  - original: Can't you see
+    translation: Você não vê
+    notes: ''
+  - original: We could never get back from the start
+    translation: Que nunca poderíamos voltar ao início
+    notes: ''
+  - original: Minutes waiting, life's been wasted
+    translation: Minutos esperando, a vida foi desperdiçada
+    notes: ''
+  - original: And I've tried,
+    translation: E eu tentei,
+    notes: ''
+  - original: Maybe you deny
+    translation: Talvez você negue
+    notes: ''
+  - original: Words of peace
+    translation: Palavras de paz
+    notes: ''
+  - original: For the future of our lives
+    translation: Para o futuro das nossas vidas
+    notes: ''
+  - original: Bring to me
+    translation: Traga-me
+    notes: ''
+  - original: Something else than a broken heart
+    translation: Algo diferente de um coração partido
+    notes: ''
+  - original: I won't wait 'till my life is wasted
+    translation: Não esperarei até que minha vida seja desperdiçada
+    notes: ''
+  - original: ... maybe
+    translation: ... talvez
+    notes: ''
+  - original: I wanna die some other day
+    translation: Eu queira morrer em outro dia
+    notes: ''
+research:
+  summary: Balada melancólica sobre o fim de um relacionamento, onde o eu lírico pede que a
+    ex-amante finja não sentir tristeza, reconhecendo que não há retorno ao início e que a vida
+    foi desperdiçada em espera.
+  themes:
+  - término
+  - solidão
+  - fingimento
+  - arrependimento
+  context: Escrita por Rafael Bittencourt com letra de Andre Matos; lançada como single do álbum.
+    Uma das faixas mais acessíveis e melódicas de Holy Land, contrastando com a densidade épica
+    das composições anteriores.
+  interpretation: |
+    "Make believe" funciona como imperativo irônico — pedir que a outra pessoa
+    finja indiferença quando ambos sabem que a dor é real e irreversível.
+  references:
+  - title: DarkLyrics — Holy Land (1996)
+    url: http://www.darklyrics.com/lyrics/angra/holyland.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Make Believe — Vagalume
+    url: https://www.vagalume.com.br/angra/make-believe.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

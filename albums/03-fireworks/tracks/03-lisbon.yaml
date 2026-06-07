@@ -1,0 +1,121 @@
+# Lisbon — Fireworks (1998)
+id: 03-fireworks-03-lisbon
+album_id: 03-fireworks
+track_number: 3
+title: Lisbon
+language: en
+authors:
+- Andre Matos
+duration: '5:13'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Everynight I say a prayer
+    translation: Toda noite eu faço uma oração
+    notes: ''
+  - original: 'Look at me: nobody cares'
+    translation: 'Olhe para mim: ninguém se importa'
+    notes: ''
+  - original: Just a mirror, passing by...
+    translation: Apenas um espelho, passando...
+    notes: ''
+  - original: 'Looked inside:'
+    translation: 'Olhei por dentro:'
+    notes: ''
+  - original: I've lost my pride...!
+    translation: Perdi meu orgulho...!
+    notes: ''
+- section: Verse 2
+  lines:
+  - original: Stay with me not for so long
+    translation: Fique comigo não por muito tempo
+    notes: ''
+  - original: "It's alright: no needs, no hope"
+    translation: "Está tudo bem: sem necessidades, sem esperança"
+    notes: ''
+  - original: Such a miracle, looking back...
+    translation: Que milagre, olhando para trás...
+    notes: ''
+  - original: Time gone by, and life wasn't bad...!
+    translation: O tempo passou, e a vida não era ruim...!
+    notes: ''
+- section: Pre-Chorus
+  lines:
+  - original: Lord, light my way
+    translation: Senhor, ilumine meu caminho
+    notes: ''
+  - original: Fill these withered, careless hands...
+    translation: Preencha estas mãos ressequidas e descuidadas...
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Oh, skies are falling down
+    translation: Oh, os céus estão caindo
+    notes: ''
+  - original: Skies are falling down
+    translation: Os céus estão caindo
+    notes: ''
+  - original: Oh, skies are falling down
+    translation: Oh, os céus estão caindo
+    notes: ''
+  - original: Skies are falling down
+    translation: Os céus estão caindo
+    notes: ''
+- section: Verse 3
+  lines:
+  - original: See, the birds are back...
+    translation: Veja, os pássaros voltaram...
+    notes: ''
+  - original: At the docks and everywhere
+    translation: Nas docas e em todo lugar
+    notes: ''
+  - original: Here in Lisbon, realized
+    translation: Aqui em Lisboa, percebi
+    notes: ''
+  - original: This whole world so strange and divine
+    translation: Que este mundo inteiro é tão estranho e divino
+    notes: ''
+- section: Pre-Chorus (repeat)
+  lines:
+  - original: Lord, light my way
+    translation: Senhor, ilumine meu caminho
+    notes: ''
+  - original: Fill these withered, careless hands...
+    translation: Preencha estas mãos ressequidas e descuidadas...
+    notes: ''
+- section: Chorus (repeat)
+  lines:
+  - original: Oh, skies are falling down
+    translation: Oh, os céus estão caindo
+    notes: ''
+  - original: Skies are falling down
+    translation: Os céus estão caindo
+    notes: ''
+  - original: Oh, skies are falling down
+    translation: Oh, os céus estão caindo
+    notes: ''
+  - original: Skies are falling down
+    translation: Os céus estão caindo
+    notes: ''
+research:
+  summary: Balada melancólica ambientada em Lisboa, onde o eu lírico busca sentido espiritual diante da solidão, perda de orgulho e percepção do mundo como estranho e divino.
+  themes:
+  - solidão
+  - espiritualidade
+  - nostalgia
+  - Lisboa
+  context: Composta integralmente por Andre Matos; foi lançada também como single. Apesar do cenário português, a letra oficial está em inglês — padrão da Angra na era Matos. Tornou-se uma das faixas mais emblemáticas do álbum.
+  interpretation: A queda dos céus contrasta com a serenidade das docas e dos pássaros, sugerindo colapso interior transformado em epifania numa cidade histórica de passagem e descoberta.
+  references:
+  - title: DarkLyrics — Fireworks (1998)
+    url: http://www.darklyrics.com/lyrics/angra/fireworks.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Lisbon — Vagalume
+    url: https://www.vagalume.com.br/angra/lisbon.html
+    type: database
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'

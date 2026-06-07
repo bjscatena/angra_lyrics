@@ -1,0 +1,45 @@
+# Template de referência — copiar para albums/{slug}/tracks/{ordem}-{titulo}.yaml
+
+# --- Faixa vocal ---
+id: "01-angels-cry-02-carry-on"
+album_id: "01-angels-cry"
+track_number: 2
+title: "Carry On"
+title_alternate: []
+language: "en"
+authors:
+  - "Rafael Bittencourt"
+  - "Andre Matos"
+duration: "4:27"
+instrumental: false
+
+lyrics:
+  - section: "Verse 1"
+    lines:
+      - original: "It's time to go, the sun is rising"
+        translation: "É hora de ir, o sol está nascendo"
+        notes: ""
+
+research:
+  summary: |
+    Do que a música trata, tom, papel no álbum.
+  themes:
+    - "superação"
+  context: |
+    Circunstâncias de composição, relação com outras faixas.
+  interpretation: |
+    Análise interpretativa (claramente marcada como tal).
+  references:
+    - title: "Metal Kingdom — Angels Cry"
+      url: "https://..."
+      type: "database"
+      accessed: "2026-06-06"
+
+metadata:
+  status: "draft"
+  last_updated: "2026-06-06"
+
+# --- Faixa instrumental (substituir bloco lyrics por instrumental_description) ---
+# instrumental: true
+# instrumental_description: |
+#   Descrição da peça instrumental, estrutura e papel no álbum.

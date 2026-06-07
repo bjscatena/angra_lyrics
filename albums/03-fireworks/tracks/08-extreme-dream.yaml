@@ -1,0 +1,90 @@
+# Extreme Dream — Fireworks (1998)
+id: 03-fireworks-08-extreme-dream
+album_id: 03-fireworks
+track_number: 8
+title: Extreme Dream
+language: en
+authors:
+- Andre Matos
+- Rafael Bittencourt
+- Kiko Loureiro
+duration: '4:16'
+instrumental: false
+lyrics:
+- section: Verse 1
+  lines:
+  - original: Living a dream just for one night
+    translation: Vivendo um sonho por apenas uma noite
+    notes: ''
+  - original: Feels like the last day of my life
+    translation: Parece o último dia da minha vida
+    notes: ''
+  - original: Roaming somewhere just for a while
+    translation: Vagando em algum lugar por um tempo
+    notes: ''
+  - original: When all the feelings lay dorment inside
+    translation: Quando todos os sentimentos jazem dormentes dentro
+    notes: ''
+- section: Pre-Chorus
+  lines:
+  - original: Here we go, marching on...
+    translation: Lá vamos nós, marchando...
+    notes: ''
+  - original: Unconsciously far from this world
+    translation: Inconscientemente longe deste mundo
+    notes: ''
+  - original: We're knowing foundations of all in such extreme virtuality
+    translation: Conhecemos os fundamentos de tudo em extrema virtualidade
+    notes: ''
+  - original: All we don't need is the proof to believe
+    translation: Tudo o que não precisamos é de prova para acreditar
+    notes: ''
+- section: Chorus
+  lines:
+  - original: Here we go, marching ahead
+    translation: Lá vamos nós, marchando adiante
+    notes: ''
+  - original: Buried deep in the sand...
+    translation: Enterrados fundo na areia...
+    notes: ''
+  - original: I recognize this place,
+    translation: Reconheço este lugar,
+    notes: ''
+  - original: All those faces, all these scenes
+    translation: Todos aqueles rostos, todas estas cenas
+    notes: ''
+  - original: Though I'm so often there
+    translation: Embora eu esteja lá com tanta frequência
+    notes: ''
+  - original: It's somewhere I've never been
+    translation: É algum lugar onde nunca estive
+    notes: ''
+  - original: (Over and over again)
+    translation: (De novo e de novo)
+    notes: ''
+  - original: ...It's so extreme
+    translation: ...É tão extremo
+    notes: ''
+  - original: My endless dream...!
+    translation: Meu sonho sem fim...!
+    notes: ''
+research:
+  summary: Faixa onírica sobre viver um sonho extremo por uma noite — reconhecer rostos e lugares familiares em território nunca visitado de fato.
+  themes:
+  - sonhos
+  - virtualidade
+  - déjà vu
+  context: Letra de Matos; uma das faixas mais curtas e diretas do álbum, com groove marcante e clima quasi-psicodélico.
+  interpretation: A contradição "often there / never been" evoca estados alterados — sonho lúcido, imaginação ou fuga da realidade como único refúgio onde sentimentos adormecidos despertam.
+  references:
+  - title: DarkLyrics — Fireworks (1998)
+    url: http://www.darklyrics.com/lyrics/angra/fireworks.html
+    type: database
+    accessed: '2026-06-06'
+  - title: Fireworks (album) — Wikipedia
+    url: https://en.wikipedia.org/wiki/Fireworks_(Angra_album)
+    type: article
+    accessed: '2026-06-06'
+metadata:
+  status: complete
+  last_updated: '2026-06-06'
