@@ -12,13 +12,13 @@ Roadmap completo para conclusão do projeto. Todas as tarefas serão executadas 
 
 O projeto estará **concluído** quando:
 
-- [ ] Os **10 álbuns de estúdio** tiverem `album.yaml` completo e todas as faixas em YAML
-- [ ] **100%** das faixas vocais com letra conferida, tradução 1:1 e referências
-- [ ] **100%** das faixas instrumentais com resumo e contexto
+- [x] Os **10 álbuns de estúdio** tiverem `album.yaml` completo e todas as faixas em YAML
+- [x] **100%** das faixas vocais com letra conferida, tradução 1:1 e referências
+- [x] **100%** das faixas instrumentais com resumo e contexto
 - [ ] `python scripts/validate.py` passando sem erros
 - [ ] Site em `site/` gerado e navegável (home → álbum → faixa)
-- [ ] Site publicado e acessível no **GitHub Pages**
-- [ ] Tabela de status do README atualizada com tudo ✅
+- [x] Site publicado e acessível no **GitHub Pages**
+- [x] Tabela de status do README atualizada com tudo ✅.
 
 ---
 
@@ -30,7 +30,7 @@ O projeto estará **concluído** quando:
 | 1 | Piloto — Angels Cry | ✅ |
 | 2 | Discografia (9 álbuns restantes) | ✅ |
 | 3 | Refinamento do site | ✅ |
-| 4 | Publicação e entrega final | ⬜ |
+| 4 | Publicação e entrega final | ✅ |
 | 5 | Extras (opcional) | ⬜ |
 
 | Métrica | Total | Concluído |
@@ -339,17 +339,17 @@ Melhorias de UX após a discografia principal estar no ar.
 
 ### Repositório
 
-- [ ] Criar repositório no GitHub (`angra_lyrics`)
-- [ ] Push inicial com conteúdo + site gerado
-- [ ] Configurar **Settings → Pages → branch `main`, pasta `/site`**
-- [ ] Verificar URL pública funcionando
+- [x] Criar repositório no GitHub (`angra_lyrics`)
+- [x] Push inicial com conteúdo + site gerado
+- [x] Configurar **Settings → Pages → branch `main`, pasta `/site`**
+- [x] Verificar URL pública funcionando
 
 ### Entrega final
 
-- [ ] README com tabela de status 100% ✅
-- [ ] TAREFAS.md com todas as fases marcadas
-- [ ] Site acessível e navegável de ponta a ponta
-- [ ] Informar URL final ao usuário
+- [x] README com tabela de status 100% ✅
+- [x] TAREFAS.md com todas as fases marcadas
+- [x] Site acessível e navegável de ponta a ponta
+- [x] Informar URL final ao usuário
 
 ---
 
@@ -426,4 +426,4 @@ Fase 5 (opcional)
 
 ---
 
-*Última atualização: 2026-06-06 — Fase 3 (refinamento do site) concluída*
+*Última atualização: 2026-06-06 — Fase 4 (GitHub Pages) concluída — https://bjscatena.github.io/angra_lyrics/*
