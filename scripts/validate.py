@@ -13,6 +13,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 ALBUMS_DIR = ROOT / "albums"
+POPULARITY_PATH = ROOT / "scripts" / "popularity.yaml"
 
 ALBUM_REQUIRED = ("id", "title", "type", "release", "tracklist", "history", "assets")
 TRACK_REQUIRED = ("id", "album_id", "track_number", "title", "language", "research", "metadata")
@@ -177,6 +178,67 @@ def validate_track(track_path: Path, album_slug: str, tracklist_entry: dict) -> 
     return errors
 
 
+def collect_track_ids() -> set[str]:
+    ids: set[str] = set()
+    if not ALBUMS_DIR.exists():
+        return ids
+
+    for album_dir in sorted(p for p in ALBUMS_DIR.iterdir() if p.is_dir()):
+        album_path = album_dir / "album.yaml"
+        if not album_path.exists():
+            continue
+
+        album = load_yaml(album_path)
+        for entry in album.get("tracklist", []):
+            file_name = entry.get("file")
+            if not file_name:
+                continue
+            track_path = album_dir / "tracks" / file_name
+            if not track_path.exists():
+                continue
+            track = load_yaml(track_path)
+            track_id = track.get("id")
+            if track_id:
+                ids.add(str(track_id))
+
+    return ids
+
+
+def validate_popularity() -> list[str]:
+    if not POPULARITY_PATH.exists():
+        return [f"[R09] {POPULARITY_PATH.relative_to(ROOT)}: popularity file not found"]
+
+    data = load_yaml(POPULARITY_PATH)
+    tracks = data.get("tracks", {})
+    if not isinstance(tracks, dict):
+        return ["[R09] scripts/popularity.yaml: tracks must be a mapping"]
+
+    errors: list[str] = []
+    expected_ids = collect_track_ids()
+    defined_ids = set(tracks.keys())
+
+    missing = sorted(expected_ids - defined_ids)
+    for track_id in missing:
+        errors.append(f"[R09] scripts/popularity.yaml: missing popularity for track '{track_id}'")
+
+    extra = sorted(defined_ids - expected_ids)
+    for track_id in extra:
+        errors.append(f"[R09] scripts/popularity.yaml: unknown track id '{track_id}'")
+
+    for track_id, value in tracks.items():
+        try:
+            score = int(value)
+        except (TypeError, ValueError):
+            errors.append(f"[R09] scripts/popularity.yaml: invalid popularity for '{track_id}'")
+            continue
+        if score < 0 or score > 10:
+            errors.append(
+                f"[R09] scripts/popularity.yaml: popularity for '{track_id}' must be 0–10 (got {score})"
+            )
+
+    return errors
+
+
 def validate_all() -> list[str]:
     if not ALBUMS_DIR.exists():
         return []
@@ -192,6 +254,8 @@ def validate_all() -> list[str]:
 
     if not validated_any:
         print("No album.yaml files found — nothing to validate (OK for Phase 0).")
+    else:
+        errors.extend(validate_popularity())
 
     return errors
 

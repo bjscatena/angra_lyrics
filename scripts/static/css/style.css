@@ -90,6 +90,11 @@ body {
   color: var(--accent-hover);
 }
 
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
 .site-nav a {
   color: var(--text-muted);
   text-decoration: none;
@@ -129,6 +134,21 @@ body {
 /* Search */
 .search-section {
   margin-bottom: 2rem;
+}
+
+.search-hint {
+  text-align: center;
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+}
+
+.search-hint a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.search-hint a:hover {
+  text-decoration: underline;
 }
 
 .search-box {
@@ -210,6 +230,160 @@ body {
   padding: 0.75rem 1rem;
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+/* Popularity score (0–10) */
+.popularity-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.pop-score-num {
+  font-weight: 600;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.pop-score-sep,
+.pop-score-max {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.pop-score-bullets {
+  display: inline-flex;
+  gap: 0.08rem;
+}
+
+.bullet {
+  font-size: 0.45rem;
+  line-height: 1;
+}
+
+.bullet--filled {
+  color: var(--accent);
+}
+
+.bullet--empty {
+  color: var(--border);
+  opacity: 0.45;
+}
+
+/* Popular page */
+.hero--compact {
+  margin-bottom: 1.5rem;
+}
+
+.hero--compact h1 {
+  font-size: 1.75rem;
+}
+
+.popular-section {
+  max-width: 42rem;
+}
+
+.popular-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.popular-controls .search-box {
+  max-width: none;
+  margin: 0;
+}
+
+.popular-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.popular-filters-label {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.filter-btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.filter-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(201, 162, 39, 0.1);
+}
+
+.popular-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.popular-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-result-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.popular-result-link {
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.popular-result-link:hover .popular-result-title {
+  color: var(--accent);
+}
+
+.popular-result-title {
+  display: block;
+  font-weight: 600;
+  transition: color 0.15s;
+}
+
+.popular-result-album {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.popular-empty {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 1rem 0 0;
+}
+
+.search-result-score {
+  margin-left: auto;
 }
 
 /* Album grid */
@@ -405,10 +579,15 @@ body {
 /* Tracklist */
 .tracklist-item {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.tracklist-item .popularity-score {
+  margin-left: auto;
 }
 
 .track-number {

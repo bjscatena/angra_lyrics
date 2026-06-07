@@ -1,117 +1,206 @@
-id: "09-omni"
-title: "ØMNI"
-type: "studio"
-release:
-  date: "2018-02-16"
-  label: "Victor Entertainment (Japan) / Shinigami Records (Brazil) / earMUSIC (Europe)"
-  countries: ["Japan", "Brazil", "Europe", "North America"]
-
-lineup:
-  - name: "Fabio Lione"
-    role: "lead vocals"
-  - name: "Rafael Bittencourt"
-    role: "guitars, backing vocals, lead vocals on \"The Bottom of My Soul\""
-  - name: "Marcelo Barbosa"
-    role: "guitars"
-  - name: "Felipe Andreoli"
-    role: "bass, backing vocals"
-  - name: "Bruno Valverde"
-    role: "drums"
-
-tracklist:
-  - number: 1
-    file: "01-light-of-transcendence.yaml"
-    title: "Light of Transcendence"
-    duration: "4:36"
-    instrumental: false
-  - number: 2
-    file: "02-travelers-of-time.yaml"
-    title: "Travelers of Time"
-    duration: "4:27"
-    instrumental: false
-  - number: 3
-    file: "03-black-widows-web.yaml"
-    title: "Black Widow's Web"
-    duration: "5:49"
-    instrumental: false
-  - number: 4
-    file: "04-insania.yaml"
-    title: "Insania"
-    duration: "5:31"
-    instrumental: false
-  - number: 5
-    file: "05-the-bottom-of-my-soul.yaml"
-    title: "The Bottom of My Soul"
-    duration: "4:19"
-    instrumental: false
-  - number: 6
-    file: "06-war-horns.yaml"
-    title: "War Horns"
-    duration: "4:43"
-    instrumental: false
-  - number: 7
-    file: "07-caveman.yaml"
-    title: "Caveman"
-    duration: "5:53"
-    instrumental: false
-  - number: 8
-    file: "08-magic-mirror.yaml"
-    title: "Magic Mirror"
-    duration: "6:58"
-    instrumental: false
-  - number: 9
-    file: "09-always-more.yaml"
-    title: "Always More"
-    duration: "4:43"
-    instrumental: false
-  - number: 10
-    file: "10-omni-silence-inside.yaml"
-    title: "ØMNI – Silence Inside"
-    duration: "8:31"
-    instrumental: false
-  - number: 11
-    file: "11-omni-infinite-nothing.yaml"
-    title: "ØMNI – Infinite Nothing"
-    duration: "5:14"
-    instrumental: true
-
-history:
-  summary: |
-    ØMNI é o nono álbum de estúdio da Angra e o primeiro após a saída de Kiko Loureiro para o
-    Megadeth, com Marcelo Barbosa assumindo as guitarras. Lançado em fevereiro de 2018, o disco
-    foi produzido por Jens Bogren na Fascination Street Studios (Örebro, Suécia) e eleito o 2º
-    melhor álbum de metal de 2018 pela revista japonesa Burrn!. O título evoca o latim "omni"
-    (tudo) e a ideia de um universo infinito onde amor e caos coexistem.
-  recording: |
-    Gravado e produzido por Jens Bogren na Fascination Street Studios, Örebro, Suécia. Todas as
-    letras são de Rafael Bittencourt. Participações especiais: Sandy Lima e Alissa White-Gluz
-    (Arch Enemy) em "Black Widow's Web"; Kiko Loureiro (solo de guitarra em "War Horns"). A
-    edição japonesa (VICP-65481) inclui faixa bônus "Evilution" e DVD; a edição europeia padrão
-    traz 11 faixas. Rafael Bittencourt canta "The Bottom of My Soul".
-  concept: |
-    ØMNI explora transcendência espiritual, viagem no tempo, armadilhas da mente e da tecnologia,
-    dualidade amor/caos e o infinito cósmico. "Light of Transcendence" abre com filosofia oriental
-    sobre ilusão e renascimento; "Travelers of Time" propõe mensageiros do futuro; "Black Widow's
-    Web" metaforiza manipulação nas redes; "Insania" descreve um portal dimensional; "The Bottom
-    of My Soul" mergulha na angústia existencial; "War Horns" e "Caveman" contrastam profecia
-    bíblica e alegoria platônica; "Magic Mirror" e "Always More" celebram empatia e aprendizado
-    contínuo; o diptico final "Silence Inside" / "Infinite Nothing" fecha o ciclo cósmico do álbum.
-  reception: |
-    ØMNI alcançou a 42ª posição no Oricon japonês, 133ª na Bélgica (Ultratop Wallonia) e 88ª na
-    Suíça. Críticas destacaram a integração de Marcelo Barbosa e a produção de Bogren; Blabbermouth
-    atribuiu nota 9.5/10. Singles "War Horns" e "Magic Mirror" tiveram videoclipes; o disco
-    preparou o terreno para Cycles of Pain (2023).
-  references:
-    - title: "ØMNI (album) — Wikipedia"
-      url: "https://en.wikipedia.org/wiki/Omni_(Angra_album)"
-      type: "article"
-    - title: "ØMNI — MusicBrainz"
-      url: "https://musicbrainz.org/release-group/f5bd0edd-c575-402d-a68a-83acf79a3366"
-      type: "database"
-    - title: "Angra — ØMNI — Metal Archives"
-      url: "https://www.metal-archives.com/albums/Angra/%C3%98MNI/740789"
-      type: "database"
-
-assets:
-  cover: "assets/cover.jpg"
-  gallery: []
+id: "09-omni"
+
+title: "ØMNI"
+
+type: "studio"
+
+release:
+
+  date: "2018-02-16"
+
+  label: "Victor Entertainment (Japan) / Shinigami Records (Brazil) / earMUSIC (Europe)"
+
+  countries: ["Japan", "Brazil", "Europe", "North America"]
+
+
+
+lineup:
+
+  - name: "Fabio Lione"
+
+    role: "lead vocals"
+
+  - name: "Rafael Bittencourt"
+
+    role: "guitars, backing vocals, lead vocals on \"The Bottom of My Soul\""
+
+  - name: "Marcelo Barbosa"
+
+    role: "guitars"
+
+  - name: "Felipe Andreoli"
+
+    role: "bass, backing vocals"
+
+  - name: "Bruno Valverde"
+
+    role: "drums"
+
+
+
+tracklist:
+
+  - number: 1
+
+    file: "01-light-of-transcendence.yaml"
+
+    title: "Light of Transcendence"
+
+    duration: "4:36"
+
+    instrumental: false
+
+  - number: 2
+
+    file: "02-travelers-of-time.yaml"
+
+    title: "Travelers of Time"
+
+    duration: "4:27"
+
+    instrumental: false
+
+  - number: 3
+
+    file: "03-black-widows-web.yaml"
+
+    title: "Black Widow's Web"
+
+    duration: "5:49"
+
+    instrumental: false
+
+  - number: 4
+
+    file: "04-insania.yaml"
+
+    title: "Insania"
+
+    duration: "5:31"
+
+    instrumental: false
+
+  - number: 5
+
+    file: "05-the-bottom-of-my-soul.yaml"
+
+    title: "The Bottom of My Soul"
+
+    duration: "4:19"
+
+    instrumental: false
+
+  - number: 6
+
+    file: "06-war-horns.yaml"
+
+    title: "War Horns"
+
+    duration: "4:43"
+
+    instrumental: false
+
+  - number: 7
+
+    file: "07-caveman.yaml"
+
+    title: "Caveman"
+
+    duration: "5:53"
+
+    instrumental: false
+
+  - number: 8
+
+    file: "08-magic-mirror.yaml"
+
+    title: "Magic Mirror"
+
+    duration: "6:58"
+
+    instrumental: false
+
+  - number: 9
+
+    file: "09-always-more.yaml"
+
+    title: "Always More"
+
+    duration: "4:43"
+
+    instrumental: false
+
+  - number: 10
+
+    file: "10-omni-silence-inside.yaml"
+
+    title: "ØMNI – Silence Inside"
+
+    duration: "8:31"
+
+    instrumental: false
+
+  - number: 11
+
+    file: "11-omni-infinite-nothing.yaml"
+
+    title: "ØMNI – Infinite Nothing"
+
+    duration: "5:14"
+
+    instrumental: true
+
+
+
+history:
+  summary: >-
+    ØMNI é o nono álbum de estúdio da Angra e o primeiro após a saída de Kiko Loureiro para o
+    Megadeth, com Marcelo Barbosa assumindo as guitarras. Lançado em fevereiro de 2018, o disco
+    foi produzido por Jens Bogren na Fascination Street Studios (Örebro, Suécia) e eleito o 2º
+    melhor álbum de metal de 2018 pela revista japonesa Burrn!. O título evoca o latim "omni"
+    (tudo) e a ideia de um universo infinito onde amor e caos coexistem.
+  recording: >-
+    Gravado e produzido por Jens Bogren na Fascination Street Studios, Örebro, Suécia. Todas as
+    letras são de Rafael Bittencourt. Participações especiais: Sandy Lima e Alissa White-Gluz
+    (Arch Enemy) em "Black Widow's Web"; Kiko Loureiro (solo de guitarra em "War Horns"). A
+    edição japonesa (VICP-65481) inclui faixa bônus "Evilution" e DVD; a edição europeia padrão
+    traz 11 faixas. Rafael Bittencourt canta "The Bottom of My Soul".
+  concept: >-
+    ØMNI explora transcendência espiritual, viagem no tempo, armadilhas da mente e da tecnologia,
+    dualidade amor/caos e o infinito cósmico. "Light of Transcendence" abre com filosofia oriental
+    sobre ilusão e renascimento; "Travelers of Time" propõe mensageiros do futuro; "Black Widow's
+    Web" metaforiza manipulação nas redes; "Insania" descreve um portal dimensional; "The Bottom
+    of My Soul" mergulha na angústia existencial; "War Horns" e "Caveman" contrastam profecia
+    bíblica e alegoria platônica; "Magic Mirror" e "Always More" celebram empatia e aprendizado
+    contínuo; o diptico final "Silence Inside" / "Infinite Nothing" fecha o ciclo cósmico do álbum.
+  reception: >-
+    ØMNI alcançou a 42ª posição no Oricon japonês, 133ª na Bélgica (Ultratop Wallonia) e 88ª na
+    Suíça. Críticas destacaram a integração de Marcelo Barbosa e a produção de Bogren; Blabbermouth
+    atribuiu nota 9.5/10. Singles "War Horns" e "Magic Mirror" tiveram videoclipes; o disco
+    preparou o terreno para Cycles of Pain (2023).
+
+  references:
+
+    - title: "ØMNI (album) — Wikipedia"
+
+      url: "https://en.wikipedia.org/wiki/Omni_(Angra_album)"
+
+      type: "article"
+
+    - title: "ØMNI — MusicBrainz"
+
+      url: "https://musicbrainz.org/release-group/f5bd0edd-c575-402d-a68a-83acf79a3366"
+
+      type: "database"
+
+    - title: "Angra — ØMNI — Metal Archives"
+
+      url: "https://www.metal-archives.com/albums/Angra/%C3%98MNI/740789"
+
+      type: "database"
+
+
+
+assets:
+
+  cover: "assets/cover.jpg"

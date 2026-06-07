@@ -5,6 +5,7 @@
   "use strict";
 
   var assetPrefix = document.body.getAttribute("data-asset-prefix") || "";
+  var assetVersion = document.body.getAttribute("data-asset-version") || "";
 
   /* Lyrics display toggle (Original / Tradução / Ambos) */
   var toggleContainer = document.querySelector(".lyrics-toggle");
@@ -45,8 +46,13 @@
         .replace(/[\u0300-\u036f]/g, "");
     }
 
+    function indexUrl() {
+      var url = assetPrefix + "search-index.json";
+      return assetVersion ? url + "?v=" + encodeURIComponent(assetVersion) : url;
+    }
+
     function loadIndex() {
-      return fetch(assetPrefix + "search-index.json")
+      return fetch(indexUrl())
         .then(function (res) {
           if (!res.ok) throw new Error("search-index unavailable");
           return res.json();
@@ -72,6 +78,9 @@
           );
           return haystack.indexOf(normalized) !== -1;
         })
+        .sort(function (a, b) {
+          return (b.popularity || 0) - (a.popularity || 0);
+        })
         .slice(0, 12);
     }
 
@@ -80,6 +89,18 @@
       searchResults.hidden = true;
       searchInput.setAttribute("aria-expanded", "false");
       activeIndex = -1;
+    }
+
+    function renderScore(score) {
+      if (window.AngraPopularity && window.AngraPopularity.renderScore) {
+        var node = window.AngraPopularity.renderScore(score);
+        node.classList.add("search-result-score");
+        return node;
+      }
+      var fallback = document.createElement("span");
+      fallback.className = "popularity-score search-result-score";
+      fallback.textContent = score + "/10";
+      return fallback;
     }
 
     function renderResults(matches) {
@@ -104,6 +125,16 @@
         var link = document.createElement("a");
         link.href = assetPrefix + item.url;
         link.className = "search-result-link";
+        link.style.flexDirection = "row";
+        link.style.alignItems = "center";
+        link.style.gap = "0.75rem";
+
+        var textWrap = document.createElement("span");
+        textWrap.style.flex = "1";
+        textWrap.style.minWidth = "0";
+        textWrap.style.display = "flex";
+        textWrap.style.flexDirection = "column";
+        textWrap.style.gap = "0.15rem";
 
         var title = document.createElement("span");
         title.className = "search-result-title";
@@ -113,8 +144,10 @@
         album.className = "search-result-album";
         album.textContent = item.album_title;
 
-        link.appendChild(title);
-        link.appendChild(album);
+        textWrap.appendChild(title);
+        textWrap.appendChild(album);
+        link.appendChild(textWrap);
+        link.appendChild(renderScore(item.popularity || 0));
         li.appendChild(link);
         searchResults.appendChild(li);
       });

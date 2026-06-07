@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Faixas populares — {{ site_title }}{% endblock %}
+{% block description %}Busque e explore as faixas da Angra ordenadas por popularidade.{% endblock %}
+{% block og_title %}Faixas populares — {{ site_title }}{% endblock %}
+{% block og_description %}Busque e explore as faixas da Angra ordenadas por popularidade.{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="Navegação">
+  <a href="{{ asset_prefix }}index.html">Home</a>
+  <span aria-hidden="true">›</span>
+  <span>Faixas populares</span>
+</nav>
+
+<section class="hero hero--compact">
+  <h1>Faixas populares</h1>
+  <p class="hero-subtitle">Busque por título ou álbum e filtre por popularidade (nota de 0 a 10).</p>
+</section>
+
+<section class="popular-section" aria-label="Busca e listagem de faixas populares">
+  <div class="popular-controls">
+    <div class="search-box" role="search">
+      <label for="popular-search" class="visually-hidden">Buscar faixas por título ou álbum</label>
+      <input
+        type="search"
+        id="popular-search"
+        class="search-input"
+        placeholder="Buscar faixas…"
+        autocomplete="off"
+        aria-controls="popular-results"
+      >
+    </div>
+
+    <div class="popular-filters" role="group" aria-label="Filtrar por popularidade mínima">
+      <span class="popular-filters-label">Mínimo:</span>
+      <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
+      <button type="button" class="filter-btn" data-min-score="5">5+</button>
+      <button type="button" class="filter-btn" data-min-score="7">7+</button>
+      <button type="button" class="filter-btn" data-min-score="9">9+</button>
+    </div>
+  </div>
+
+  <p id="popular-count" class="popular-count" aria-live="polite"></p>
+
+  <ol id="popular-results" class="popular-results" role="list"></ol>
+
+  <p id="popular-empty" class="popular-empty" hidden>Nenhuma faixa encontrada com os filtros atuais.</p>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ asset_prefix }}js/popular.js?v={{ asset_version }}"></script>
+{% endblock %}

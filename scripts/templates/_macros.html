@@ -1,0 +1,10 @@
+{% macro popularity_score(score) -%}
+<span class="popularity-score" aria-label="Popularidade: {{ score }} de 10" title="Popularidade: {{ score }}/10">
+  <span class="pop-score-num">{{ score }}</span><span class="pop-score-sep">/</span><span class="pop-score-max">10</span>
+  <span class="pop-score-bullets" aria-hidden="true">
+  {%- for i in range(1, 11) -%}
+  <span class="bullet {% if i <= score %}bullet--filled{% else %}bullet--empty{% endif %}">●</span>
+  {%- endfor -%}
+  </span>
+</span>
+{%- endmacro %}

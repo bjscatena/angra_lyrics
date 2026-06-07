@@ -1,0 +1,131 @@
+# Popularidade das faixas (0–10).
+# Fonte: setlist.fm (apresentações ao vivo, jun/2026) + Spotify (streams).
+# 10 = hino absoluto · 0 = intro instrumental raramente destacada
+
+tracks:
+
+  # Angels Cry
+  01-angels-cry-01-unfinished-allegro: 0
+  01-angels-cry-02-carry-on: 10
+  01-angels-cry-03-time: 6
+  01-angels-cry-04-angels-cry: 10
+  01-angels-cry-05-stand-away: 2
+  01-angels-cry-06-never-understand: 3
+  01-angels-cry-07-wuthering-heights: 10
+  01-angels-cry-08-streets-of-tomorrow: 2
+  01-angels-cry-09-evil-warning: 3
+  01-angels-cry-10-lasting-child: 1
+
+  # Holy Land
+  02-holy-land-01-crossing: 0
+  02-holy-land-02-nothing-to-say: 10
+  02-holy-land-03-silence-and-distance: 5
+  02-holy-land-04-carolina-iv: 5
+  02-holy-land-05-holy-land: 4
+  02-holy-land-06-the-shaman: 2
+  02-holy-land-07-make-believe: 6
+  02-holy-land-08-zito: 4
+  02-holy-land-09-deep-blue: 1
+  02-holy-land-10-lullaby-for-lucifer: 3
+
+  # Fireworks
+  03-fireworks-01-wings-of-reality: 4
+  03-fireworks-02-petrified-eyes: 2
+  03-fireworks-03-lisbon: 8
+  03-fireworks-04-metal-icarus: 4
+  03-fireworks-05-paradise: 1
+  03-fireworks-06-mystery-machine: 1
+  03-fireworks-07-fireworks: 3
+  03-fireworks-08-extreme-dream: 1
+  03-fireworks-09-gentle-change: 4
+  03-fireworks-10-speed: 1
+
+  # Rebirth
+  04-rebirth-01-in-excelsis: 0
+  04-rebirth-02-nova-era: 10
+  04-rebirth-03-millennium-sun: 5
+  04-rebirth-04-acid-rain: 8
+  04-rebirth-05-heroes-of-sand: 6
+  04-rebirth-06-unholy-wars: 3
+  04-rebirth-07-rebirth: 10
+  04-rebirth-08-judgement-day: 2
+  04-rebirth-09-running-alone: 4
+  04-rebirth-10-visions-prelude: 2
+
+  # Temple of Shadows
+  05-temple-of-shadows-01-deus-le-volt: 0
+  05-temple-of-shadows-02-spread-your-fire: 8
+  05-temple-of-shadows-03-angels-and-demons: 8
+  05-temple-of-shadows-04-waiting-silence: 9
+  05-temple-of-shadows-05-wishing-well: 4
+  05-temple-of-shadows-06-the-temple-of-hate: 5
+  05-temple-of-shadows-07-the-shadow-hunter: 4
+  05-temple-of-shadows-08-no-pain-for-the-dead: 4
+  05-temple-of-shadows-09-winds-of-destination: 5
+  05-temple-of-shadows-10-sprouts-of-time: 3
+  05-temple-of-shadows-11-morning-star: 5
+  05-temple-of-shadows-12-late-redemption: 5
+  05-temple-of-shadows-13-gate-xiii: 0
+
+  # Aurora Consurgens
+  06-aurora-consurgens-01-the-course-of-nature: 4
+  06-aurora-consurgens-02-the-voice-commanding-you: 4
+  06-aurora-consurgens-03-ego-painted-grey: 4
+  06-aurora-consurgens-04-breaking-ties: 1
+  06-aurora-consurgens-05-salvation-suicide: 1
+  06-aurora-consurgens-06-window-to-nowhere: 1
+  06-aurora-consurgens-07-so-near-so-far: 1
+  06-aurora-consurgens-08-passing-by: 1
+  06-aurora-consurgens-09-scream-your-heart-out: 1
+  06-aurora-consurgens-10-abandoned-fate: 1
+
+  # Aqua
+  07-aqua-01-viderunt-te-aquae: 0
+  07-aqua-02-arising-thunder: 2
+  07-aqua-03-awake-from-darkness: 2
+  07-aqua-04-lease-of-life: 3
+  07-aqua-05-the-rage-of-the-waters: 2
+  07-aqua-06-spirit-of-the-air: 1
+  07-aqua-07-hollow: 1
+  07-aqua-08-a-monster-in-her-eyes: 1
+  07-aqua-09-weakness-of-a-man: 1
+  07-aqua-10-ashes: 1
+
+  # Secret Garden
+  08-secret-garden-01-newborn-me: 7
+  08-secret-garden-02-black-hearted-soul: 1
+  08-secret-garden-03-final-light: 4
+  08-secret-garden-04-storm-of-emotions: 3
+  08-secret-garden-05-violet-sky: 1
+  08-secret-garden-06-secret-garden: 1
+  08-secret-garden-07-upper-levels: 4
+  08-secret-garden-08-crushing-room: 1
+  08-secret-garden-09-perfect-symmetry: 1
+  08-secret-garden-10-silent-call: 2
+
+  # ØMNI
+  09-omni-01-light-of-transcendence: 2
+  09-omni-02-travelers-of-time: 5
+  09-omni-03-black-widows-web: 5
+  09-omni-04-insania: 4
+  09-omni-05-the-bottom-of-my-soul: 3
+  09-omni-06-war-horns: 2
+  09-omni-07-caveman: 2
+  09-omni-08-magic-mirror: 5
+  09-omni-09-always-more: 1
+  09-omni-10-omni-silence-inside: 4
+  09-omni-11-omni-infinite-nothing: 0
+
+  # Cycles of Pain
+  10-cycles-of-pain-01-cyclus-doloris: 0
+  10-cycles-of-pain-02-ride-into-the-storm: 3
+  10-cycles-of-pain-03-dead-man-on-display: 3
+  10-cycles-of-pain-04-tide-of-changes-part-i: 4
+  10-cycles-of-pain-05-tide-of-changes-part-ii: 4
+  10-cycles-of-pain-06-vida-seca: 3
+  10-cycles-of-pain-07-gods-of-the-world: 1
+  10-cycles-of-pain-08-cycles-of-pain: 3
+  10-cycles-of-pain-09-faithless-sanctuary: 2
+  10-cycles-of-pain-10-here-in-the-now: 2
+  10-cycles-of-pain-11-generation-warriors: 1
+  10-cycles-of-pain-12-tears-of-blood: 1

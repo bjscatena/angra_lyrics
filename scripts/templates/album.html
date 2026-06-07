@@ -1,104 +1,106 @@
-{% extends "base.html" %}
-
-{% block title %}{{ album.title }} ({{ album.year }}) — {{ site_title }}{% endblock %}
-{% block description %}{{ album.history.summary | default('') | truncate(160) }}{% endblock %}
-{% block og_title %}{{ album.title }} ({{ album.year }}) — {{ site_title }}{% endblock %}
-{% block og_description %}{{ album.history.summary | default('') | truncate(160) }}{% endblock %}
-{% block og_type %}music.album{% endblock %}
-{% block og_url %}{{ page_url }}{% endblock %}
-{% block og_image %}
-{% if og_image_url %}
-<meta property="og:image" content="{{ og_image_url }}">
-{% endif %}
-{% endblock %}
-
-{% block content %}
-<nav class="breadcrumb" aria-label="Navegação">
-  <a href="{{ asset_prefix }}index.html">Home</a>
-  <span aria-hidden="true">›</span>
-  <span>{{ album.title }}</span>
-</nav>
-
-<header class="album-header">
-  {% if album.cover_url %}
-  <img src="{{ asset_prefix }}{{ album.cover_url }}" alt="Capa de {{ album.title }}" class="album-header-cover">
-  {% endif %}
-  <div class="album-header-info">
-    <h1>{{ album.title }}</h1>
-    <p class="album-meta">
-      {% if album.release and album.release.date %}
-      <span>{{ album.release.date[:4] }}</span>
-      {% elif album.year %}
-      <span>{{ album.year }}</span>
-      {% endif %}
-      {% if album.release and album.release.label %}
-      <span>{{ album.release.label }}</span>
-      {% endif %}
-    </p>
-  </div>
-</header>
-
-{% if album.lineup %}
-<section class="content-section">
-  <h2>Elenco</h2>
-  <ul class="lineup-list">
-    {% for member in album.lineup %}
-    <li><strong>{{ member.name }}</strong> — {{ member.role }}</li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-{% if album.history %}
-<section class="content-section">
-  <h2>Sobre o álbum</h2>
-  {% if album.history.summary %}
-  <div class="prose">{{ album.history.summary | trim }}</div>
-  {% endif %}
-  {% if album.history.recording %}
-  <h3>Gravação</h3>
-  <div class="prose">{{ album.history.recording | trim }}</div>
-  {% endif %}
-  {% if album.history.concept %}
-  <h3>Conceito</h3>
-  <div class="prose">{{ album.history.concept | trim }}</div>
-  {% endif %}
-  {% if album.history.reception %}
-  <h3>Recepção</h3>
-  <div class="prose">{{ album.history.reception | trim }}</div>
-  {% endif %}
-</section>
-{% endif %}
-
-<section class="content-section">
-  <h2>Faixas</h2>
-  <ol class="tracklist">
-    {% for track in album.tracks %}
-    <li class="tracklist-item">
-      <span class="track-number">{{ track.number }}.</span>
-      <a href="{{ track.url }}">{{ track.title }}</a>
-      {% if track.duration %}<span class="track-duration">{{ track.duration }}</span>{% endif %}
-      {% if track.instrumental %}<span class="badge">Instrumental</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ol>
-</section>
-
-{% if album.history and album.history.references %}
-<section class="content-section">
-  <h2>Referências</h2>
-  <ul class="references-list">
-    {% for ref in album.history.references %}
-    <li>
-      {% if ref.url %}
-      <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">{{ ref.title }}</a>
-      {% else %}
-      {{ ref.title }}
-      {% endif %}
-      {% if ref.type %}<span class="ref-type">({{ ref.type }})</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-{% endblock %}
+{% extends "base.html" %}
+{% from "_macros.html" import popularity_score %}
+
+{% block title %}{{ album.title }} ({{ album.year }}) — {{ site_title }}{% endblock %}
+{% block description %}{{ album.history.summary | default('') | truncate(160) }}{% endblock %}
+{% block og_title %}{{ album.title }} ({{ album.year }}) — {{ site_title }}{% endblock %}
+{% block og_description %}{{ album.history.summary | default('') | truncate(160) }}{% endblock %}
+{% block og_type %}music.album{% endblock %}
+{% block og_url %}{{ page_url }}{% endblock %}
+{% block og_image %}
+{% if og_image_url %}
+<meta property="og:image" content="{{ og_image_url }}">
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="Navegação">
+  <a href="{{ asset_prefix }}index.html">Home</a>
+  <span aria-hidden="true">›</span>
+  <span>{{ album.title }}</span>
+</nav>
+
+<header class="album-header">
+  {% if album.cover_url %}
+  <img src="{{ asset_prefix }}{{ album.cover_url }}" alt="Capa de {{ album.title }}" class="album-header-cover">
+  {% endif %}
+  <div class="album-header-info">
+    <h1>{{ album.title }}</h1>
+    <p class="album-meta">
+      {% if album.release and album.release.date %}
+      <span>{{ album.release.date[:4] }}</span>
+      {% elif album.year %}
+      <span>{{ album.year }}</span>
+      {% endif %}
+      {% if album.release and album.release.label %}
+      <span>{{ album.release.label }}</span>
+      {% endif %}
+    </p>
+  </div>
+</header>
+
+{% if album.lineup %}
+<section class="content-section">
+  <h2>Elenco</h2>
+  <ul class="lineup-list">
+    {% for member in album.lineup %}
+    <li><strong>{{ member.name }}</strong> — {{ member.role }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if album.history %}
+<section class="content-section">
+  <h2>Sobre o álbum</h2>
+  {% if album.history.summary %}
+  <div class="prose">{{ album.history.summary | trim }}</div>
+  {% endif %}
+  {% if album.history.recording %}
+  <h3>Gravação</h3>
+  <div class="prose">{{ album.history.recording | trim }}</div>
+  {% endif %}
+  {% if album.history.concept %}
+  <h3>Conceito</h3>
+  <div class="prose">{{ album.history.concept | trim }}</div>
+  {% endif %}
+  {% if album.history.reception %}
+  <h3>Recepção</h3>
+  <div class="prose">{{ album.history.reception | trim }}</div>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="content-section">
+  <h2>Faixas</h2>
+  <ol class="tracklist">
+    {% for track in album.tracks %}
+    <li class="tracklist-item">
+      <span class="track-number">{{ track.number }}.</span>
+      <a href="{{ track.url }}">{{ track.title }}</a>
+      {{ popularity_score(track.popularity | default(0)) }}
+      {% if track.duration %}<span class="track-duration">{{ track.duration }}</span>{% endif %}
+      {% if track.instrumental %}<span class="badge">Instrumental</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% if album.history and album.history.references %}
+<section class="content-section">
+  <h2>Referências</h2>
+  <ul class="references-list">
+    {% for ref in album.history.references %}
+    <li>
+      {% if ref.url %}
+      <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">{{ ref.title }}</a>
+      {% else %}
+      {{ ref.title }}
+      {% endif %}
+      {% if ref.type %}<span class="ref-type">({{ ref.type }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

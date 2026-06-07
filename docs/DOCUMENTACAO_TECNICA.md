@@ -148,8 +148,6 @@ history:
 
 assets:
   cover: "assets/cover.jpg"
-  gallery:
-    - "assets/booklet-01.jpg"
 ```
 
 **Campos obrigatórios:** `id`, `title`, `type`, `release.date`, `tracklist`, `history.summary`, `assets.cover`

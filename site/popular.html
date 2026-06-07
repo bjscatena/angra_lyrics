@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faixas populares — Angra Lyrics</title>
+  <meta name="description" content="Busque e explore as faixas da Angra ordenadas por popularidade.">
+  <meta property="og:title" content="Faixas populares — Angra Lyrics">
+  <meta property="og:description" content="Busque e explore as faixas da Angra ordenadas por popularidade.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bjscatena.github.io/angra_lyrics/popular.html">
+  
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1780807466">
+  
+</head>
+<body data-asset-prefix="" data-asset-version="1780807466">
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Angra Lyrics</a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="index.html">Discografia</a>
+        <a href="popular.html">Populares</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      
+<nav class="breadcrumb" aria-label="Navegação">
+  <a href="index.html">Home</a>
+  <span aria-hidden="true">›</span>
+  <span>Faixas populares</span>
+</nav>
+
+<section class="hero hero--compact">
+  <h1>Faixas populares</h1>
+  <p class="hero-subtitle">Busque por título ou álbum e filtre por popularidade (nota de 0 a 10).</p>
+</section>
+
+<section class="popular-section" aria-label="Busca e listagem de faixas populares">
+  <div class="popular-controls">
+    <div class="search-box" role="search">
+      <label for="popular-search" class="visually-hidden">Buscar faixas por título ou álbum</label>
+      <input
+        type="search"
+        id="popular-search"
+        class="search-input"
+        placeholder="Buscar faixas…"
+        autocomplete="off"
+        aria-controls="popular-results"
+      >
+    </div>
+
+    <div class="popular-filters" role="group" aria-label="Filtrar por popularidade mínima">
+      <span class="popular-filters-label">Mínimo:</span>
+      <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
+      <button type="button" class="filter-btn" data-min-score="5">5+</button>
+      <button type="button" class="filter-btn" data-min-score="7">7+</button>
+      <button type="button" class="filter-btn" data-min-score="9">9+</button>
+    </div>
+  </div>
+
+  <p id="popular-count" class="popular-count" aria-live="polite"></p>
+
+  <ol id="popular-results" class="popular-results" role="list"></ol>
+
+  <p id="popular-empty" class="popular-empty" hidden>Nenhuma faixa encontrada com os filtros atuais.</p>
+</section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Projeto de levantamento artístico — letras propriedade dos compositores.</p>
+    </div>
+  </footer>
+
+  <script src="js/popularity.js?v=1780807466"></script>
+  <script src="js/main.js?v=1780807466"></script>
+  
+<script src="js/popular.js?v=1780807466"></script>
+
+</body>
+</html>

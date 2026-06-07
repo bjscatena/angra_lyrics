@@ -1,120 +1,122 @@
-{% extends "base.html" %}
-
-{% block title %}{{ track.title }} — {{ album.title }} — {{ site_title }}{% endblock %}
-{% block description %}{{ track.research.summary | default('') | truncate(160) }}{% endblock %}
-{% block og_title %}{{ track.title }} — {{ album.title }} — {{ site_title }}{% endblock %}
-{% block og_description %}{{ track.research.summary | default('') | truncate(160) }}{% endblock %}
-{% block og_type %}music.song{% endblock %}
-{% block og_url %}{{ page_url }}{% endblock %}
-{% block og_image %}
-{% if og_image_url %}
-<meta property="og:image" content="{{ og_image_url }}">
-{% endif %}
-{% endblock %}
-
-{% block content %}
-<nav class="breadcrumb" aria-label="Navegação">
-  <a href="{{ asset_prefix }}index.html">Home</a>
-  <span aria-hidden="true">›</span>
-  <a href="{{ asset_prefix }}albums/{{ album.id }}/index.html">{{ album.title }}</a>
-  <span aria-hidden="true">›</span>
-  <span>Faixa {{ track.number }}</span>
-</nav>
-
-<header class="track-header">
-  <p class="track-album-ref">{{ album.title }} · Faixa {{ track.number }}</p>
-  <h1>{{ track.title }}</h1>
-  <p class="track-meta">
-    {% if track.authors %}{{ track.authors | join(', ') }}{% endif %}
-    {% if track.duration %} · {{ track.duration }}{% endif %}
-  </p>
-</header>
-
-{% if track.instrumental %}
-<section class="content-section">
-  <h2>Instrumental</h2>
-  {% if track.instrumental_description %}
-  <div class="prose">{{ track.instrumental_description | trim }}</div>
-  {% endif %}
-</section>
-{% else %}
-<div class="lyrics-toggle" role="tablist" aria-label="Modo de exibição da letra">
-  <button type="button" class="toggle-btn active" data-mode="both" role="tab" aria-selected="true">Ambos</button>
-  <button type="button" class="toggle-btn" data-mode="original" role="tab" aria-selected="false">Original</button>
-  <button type="button" class="toggle-btn" data-mode="translation" role="tab" aria-selected="false">Tradução</button>
-</div>
-
-<section class="lyrics-section" data-lyrics-mode="both">
-  {% for section in track.lyrics %}
-  <div class="lyrics-block">
-    <h3 class="lyrics-section-title">{{ section.section }}</h3>
-    <div class="lyrics-lines">
-      {% for line in section.lines %}
-      <div class="lyrics-row">
-        <p class="lyrics-original">{{ line.original }}</p>
-        <p class="lyrics-translation">{{ line.translation }}</p>
-        {% if line.notes %}
-        <p class="lyrics-notes"><em>{{ line.notes }}</em></p>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-  {% endfor %}
-</section>
-{% endif %}
-
-{% if track.research %}
-<section class="content-section">
-  <h2>Sobre a música</h2>
-  {% if track.research.summary %}
-  <div class="prose">{{ track.research.summary | trim }}</div>
-  {% endif %}
-
-  {% if track.research.themes %}
-  <div class="themes">
-    {% for theme in track.research.themes %}
-    <span class="badge">{{ theme }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  {% if track.research.context %}
-  <h3>Contexto</h3>
-  <div class="prose">{{ track.research.context | trim }}</div>
-  {% endif %}
-
-  {% if track.research.interpretation %}
-  <h3>Interpretação</h3>
-  <div class="prose">{{ track.research.interpretation | trim }}</div>
-  {% endif %}
-
-  {% if track.research.references %}
-  <h3>Referências</h3>
-  <ul class="references-list">
-    {% for ref in track.research.references %}
-    <li>
-      {% if ref.url %}
-      <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">{{ ref.title }}</a>
-      {% else %}
-      {{ ref.title }}
-      {% endif %}
-      {% if ref.type %}<span class="ref-type">({{ ref.type }})</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-</section>
-{% endif %}
-
-<nav class="track-nav" aria-label="Faixas adjacentes">
-  {% if prev_track %}
-  <a class="track-nav-prev" href="{{ prev_track.url }}">← {{ prev_track.title }}</a>
-  {% else %}
-  <span></span>
-  {% endif %}
-  {% if next_track %}
-  <a class="track-nav-next" href="{{ next_track.url }}">{{ next_track.title }} →</a>
-  {% endif %}
-</nav>
-{% endblock %}
+{% extends "base.html" %}
+{% from "_macros.html" import popularity_score %}
+
+{% block title %}{{ track.title }} — {{ album.title }} — {{ site_title }}{% endblock %}
+{% block description %}{{ track.research.summary | default('') | truncate(160) }}{% endblock %}
+{% block og_title %}{{ track.title }} — {{ album.title }} — {{ site_title }}{% endblock %}
+{% block og_description %}{{ track.research.summary | default('') | truncate(160) }}{% endblock %}
+{% block og_type %}music.song{% endblock %}
+{% block og_url %}{{ page_url }}{% endblock %}
+{% block og_image %}
+{% if og_image_url %}
+<meta property="og:image" content="{{ og_image_url }}">
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="Navegação">
+  <a href="{{ asset_prefix }}index.html">Home</a>
+  <span aria-hidden="true">›</span>
+  <a href="{{ asset_prefix }}albums/{{ album.id }}/index.html">{{ album.title }}</a>
+  <span aria-hidden="true">›</span>
+  <span>Faixa {{ track.number }}</span>
+</nav>
+
+<header class="track-header">
+  <p class="track-album-ref">{{ album.title }} · Faixa {{ track.number }}</p>
+  <h1>{{ track.title }}</h1>
+  <p class="track-meta">
+    {{ popularity_score(track.popularity | default(0)) }}
+    {% if track.authors %}{{ track.authors | join(', ') }}{% endif %}
+    {% if track.duration %} · {{ track.duration }}{% endif %}
+  </p>
+</header>
+
+{% if track.instrumental %}
+<section class="content-section">
+  <h2>Instrumental</h2>
+  {% if track.instrumental_description %}
+  <div class="prose">{{ track.instrumental_description | trim }}</div>
+  {% endif %}
+</section>
+{% else %}
+<div class="lyrics-toggle" role="tablist" aria-label="Modo de exibição da letra">
+  <button type="button" class="toggle-btn active" data-mode="both" role="tab" aria-selected="true">Ambos</button>
+  <button type="button" class="toggle-btn" data-mode="original" role="tab" aria-selected="false">Original</button>
+  <button type="button" class="toggle-btn" data-mode="translation" role="tab" aria-selected="false">Tradução</button>
+</div>
+
+<section class="lyrics-section" data-lyrics-mode="both">
+  {% for section in track.lyrics %}
+  <div class="lyrics-block">
+    <h3 class="lyrics-section-title">{{ section.section }}</h3>
+    <div class="lyrics-lines">
+      {% for line in section.lines %}
+      <div class="lyrics-row">
+        <p class="lyrics-original">{{ line.original }}</p>
+        <p class="lyrics-translation">{{ line.translation }}</p>
+        {% if line.notes %}
+        <p class="lyrics-notes"><em>{{ line.notes }}</em></p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if track.research %}
+<section class="content-section">
+  <h2>Sobre a música</h2>
+  {% if track.research.summary %}
+  <div class="prose">{{ track.research.summary | trim }}</div>
+  {% endif %}
+
+  {% if track.research.themes %}
+  <div class="themes">
+    {% for theme in track.research.themes %}
+    <span class="badge">{{ theme }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if track.research.context %}
+  <h3>Contexto</h3>
+  <div class="prose">{{ track.research.context | trim }}</div>
+  {% endif %}
+
+  {% if track.research.interpretation %}
+  <h3>Interpretação</h3>
+  <div class="prose">{{ track.research.interpretation | trim }}</div>
+  {% endif %}
+
+  {% if track.research.references %}
+  <h3>Referências</h3>
+  <ul class="references-list">
+    {% for ref in track.research.references %}
+    <li>
+      {% if ref.url %}
+      <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">{{ ref.title }}</a>
+      {% else %}
+      {{ ref.title }}
+      {% endif %}
+      {% if ref.type %}<span class="ref-type">({{ ref.type }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+{% endif %}
+
+<nav class="track-nav" aria-label="Faixas adjacentes">
+  {% if prev_track %}
+  <a class="track-nav-prev" href="{{ prev_track.url }}">← {{ prev_track.title }}</a>
+  {% else %}
+  <span></span>
+  {% endif %}
+  {% if next_track %}
+  <a class="track-nav-next" href="{{ next_track.url }}">{{ next_track.title }} →</a>
+  {% endif %}
+</nav>
+{% endblock %}
