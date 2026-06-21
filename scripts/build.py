@@ -173,6 +173,7 @@ def build_search_index(albums_data: list[dict]) -> list[dict]:
                     "summary": (track.get("research") or {}).get("summary", ""),
                     "popularity": track.get("popularity", 0),
                     "critic_score": track.get("critic_score", 0),
+                    "spotify_url": track.get("spotify_url", ""),
                 }
             )
     return index
@@ -266,6 +267,12 @@ def build_site(skip_validate: bool = False) -> None:
 
                 track_id = track_data.get("id") or f"{album_id}-{Path(track_file).stem}"
                 track_ratings = track_data.get("ratings", [])
+                spotify_url = track_data.get("spotify_url")
+                if not spotify_url:
+                    import urllib.parse
+                    query = f"Angra {track_data.get('title') or item.get('title', '')}"
+                    spotify_url = f"https://open.spotify.com/search/{urllib.parse.quote(query)}"
+
                 track_entry = {
                     **track_data,
                     "number": item.get("number"),
@@ -275,6 +282,7 @@ def build_site(skip_validate: bool = False) -> None:
                     "page_name": page_name,
                     "popularity": popularity_map.get(track_id, 0),
                     "critic_score": calculate_critic_score(track_ratings),
+                    "spotify_url": spotify_url,
                 }
                 tracks.append(track_entry)
 
