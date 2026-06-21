@@ -48,13 +48,6 @@
             <option value="critic">Nota dos Críticos</option>
           </select>
         </div>
-
-        <button type="button" id="create-playlist-btn" class="spotify-button" style="padding: 0.35rem 0.9rem;">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.892-.982-.336.076-.67-.135-.746-.472-.076-.336.135-.67.472-.746 3.848-.879 7.144-.504 9.814 1.13.295.18.387.565.207.863zm1.224-2.723c-.226.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.08-1.182-.413.125-.847-.107-.972-.52-.125-.413.107-.847.52-.972 3.673-1.114 8.243-.574 11.35 1.34.367.226.487.707.26 1.074zm.106-2.833C14.384 8.627 8.563 8.435 5.21 9.452c-.512.155-1.05-.135-1.206-.647-.156-.512.135-1.05.647-1.206 3.86-1.172 10.28-.95 14.34 1.46.46.273.61.87.337 1.33-.273.46-.87.61-1.33.337z"/>
-          </svg>
-          Criar Playlist
-        </button>
       </div>
     </div>
   </div>
@@ -66,49 +59,7 @@
   <p id="popular-empty" class="popular-empty" hidden>Nenhuma faixa encontrada com os filtros atuais.</p>
 </section>
 
-<!-- Modal de Criar Playlist -->
-<div id="playlist-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-  <div class="modal-card">
-    <div class="modal-header">
-      <h2 id="modal-title">Gerar Playlist no Spotify</h2>
-      <button type="button" class="modal-close-btn" id="modal-close-x" aria-label="Fechar">&times;</button>
-    </div>
-    <div class="modal-body">
-      <p id="modal-description">Crie uma playlist com as músicas atualmente filtradas e ordenadas.</p>
-      
-      <div class="form-group">
-        <label for="playlist-track-count">Número de músicas:</label>
-        <input type="number" id="playlist-track-count" class="form-input" min="1" value="20">
-      </div>
 
-      <div id="spotify-auth-section">
-        <div class="form-group">
-          <label for="spotify-client-id">Client ID do Spotify:</label>
-          <input type="text" id="spotify-client-id" class="form-input" placeholder="Cole seu Client ID aqui">
-        </div>
-        
-        <details class="modal-instructions">
-          <summary>Como obter um Client ID?</summary>
-          <ol>
-            <li>Acesse o <a href="https://developer.spotify.com/dashboard" target="_blank" rel="noopener noreferrer">Spotify Developer Dashboard</a> e faça login.</li>
-            <li>Clique em <strong>Create app</strong>. Nomeie como desejar (ex: "Angra Lyrics").</li>
-            <li>No campo <strong>Redirect URIs</strong>, adicione exatamente o URL atual desta página (ex: <code id="uri-hint"></code>). Marque a opção "Web API".</li>
-            <li>Salve, copie o <strong>Client ID</strong> e cole no campo acima.</li>
-          </ol>
-        </details>
-      </div>
-
-      <div id="playlist-status-container"></div>
-    </div>
-    <div class="modal-footer">
-      <button type="button" id="modal-cancel-btn" class="btn-secondary">Cancelar</button>
-      <button type="button" id="modal-copy-btn" class="btn-secondary">Copiar Lista como Texto</button>
-      <button type="button" id="modal-submit-btn" class="btn-primary btn-spotify-action">
-        Gerar Playlist
-      </button>
-    </div>
-  </div>
-</div>
 {% endblock %}
 
 {% block scripts %}
