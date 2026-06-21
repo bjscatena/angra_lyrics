@@ -135,6 +135,31 @@ Após o build, o site é servido a partir da pasta `site/`:
 
 O script de build já configura caminhos relativos compatíveis com subpath do GitHub Pages.
 
+## Execução Local
+
+Para rodar e testar o site localmente em sua máquina:
+
+1. **Instalar as dependências**:
+   Instale os pacotes Python necessários (Jinja2 e PyYAML) listados no `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Gerar o site estático (Build)**:
+   Execute o script de build para ler os dados YAML e gerar as páginas HTML na pasta `site/`:
+   ```bash
+   python scripts/build.py
+   ```
+
+3. **Iniciar o servidor HTTP local**:
+   Inicie o servidor local apontando para a pasta `site/` (por exemplo, na porta 8888):
+   ```bash
+   python -m http.server 8888 --directory site
+   ```
+
+4. **Acessar no navegador**:
+   Acesse: [http://localhost:8888/popular.html](http://localhost:8888/popular.html) (ou a página principal [http://localhost:8888/index.html](http://localhost:8888/index.html)).
+
 ## Status do projeto
 
 | Álbum | Metadados | Faixas | Pesquisa | Site |

@@ -256,6 +256,33 @@
     });
   }
 
+  function generateRandomString(length) {
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var values = crypto.getRandomValues(new Uint8Array(length));
+    return values.reduce(function (acc, x) {
+      return acc + possible[x % possible.length];
+    }, "");
+  }
+
+  function sha256(plain) {
+    var encoder = new TextEncoder();
+    var data = encoder.encode(plain);
+    return window.crypto.subtle.digest("SHA-256", data);
+  }
+
+  function base64urlencode(a) {
+    return btoa(String.fromCharCode.apply(null, new Uint8Array(a)))
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_")
+      .replace(/=+$/, "");
+  }
+
+  function generateCodeChallenge(verifier) {
+    return sha256(verifier).then(function (digest) {
+      return base64urlencode(digest);
+    });
+  }
+
   if (submitModalBtn) {
     submitModalBtn.addEventListener("click", function () {
       var clientId = clientIdInput.value.trim();
@@ -287,15 +314,27 @@
       localStorage.setItem("spotify_pending_playlist", JSON.stringify(pendingState));
       
       var redirectUri = window.location.origin + window.location.pathname;
-      var scope = encodeURIComponent("playlist-modify-public playlist-modify-private");
-      var url = "https://accounts.spotify.com/authorize" +
-                "?client_id=" + encodeURIComponent(clientId) +
-                "&response_type=token" +
-                "&redirect_uri=" + encodeURIComponent(redirectUri) +
-                "&scope=" + scope;
+      var scope = "playlist-modify-public playlist-modify-private";
       
-      showStatus('<span class="spinner"></span>Redirecionando para o Spotify...', "info");
-      window.location.href = url;
+      var codeVerifier = generateRandomString(64);
+      localStorage.setItem("spotify_code_verifier", codeVerifier);
+      
+      showStatus('<span class="spinner"></span>Preparando autenticação com o Spotify...', "info");
+      
+      generateCodeChallenge(codeVerifier).then(function (codeChallenge) {
+        var url = "https://accounts.spotify.com/authorize" +
+                  "?client_id=" + encodeURIComponent(clientId) +
+                  "&response_type=code" +
+                  "&redirect_uri=" + encodeURIComponent(redirectUri) +
+                  "&scope=" + encodeURIComponent(scope) +
+                  "&code_challenge_method=S256" +
+                  "&code_challenge=" + encodeURIComponent(codeChallenge);
+        
+        showStatus('<span class="spinner"></span>Redirecionando para o Spotify...', "info");
+        window.location.href = url;
+      }).catch(function (err) {
+        showStatus("Erro ao iniciar autenticação: " + err.message, "error");
+      });
     });
   }
 
@@ -400,18 +439,22 @@
   }
 
   function checkOAuthCallback() {
-    var hash = window.location.hash;
-    if (!hash) return;
+    var urlParams = new URLSearchParams(window.location.search);
+    var code = urlParams.get("code");
+    var error = urlParams.get("error");
     
-    var params = {};
-    hash.substring(1).split("&").forEach(function (part) {
-      var keyVal = part.split("=");
-      if (keyVal.length === 2) {
-        params[keyVal[0]] = decodeURIComponent(keyVal[1]);
+    if (error) {
+      modal.classList.add("active");
+      showStatus("Erro de autorização: " + error, "error");
+      localStorage.removeItem("spotify_pending_playlist");
+      localStorage.removeItem("spotify_code_verifier");
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState("", document.title, window.location.pathname);
       }
-    });
+      return;
+    }
     
-    if (!params.access_token) return;
+    if (!code) return;
     
     var pendingStr = localStorage.getItem("spotify_pending_playlist");
     if (!pendingStr) return;
@@ -427,15 +470,51 @@
     
     showStatus('<span class="spinner"></span>Autenticado! Conectando ao Spotify...', "info");
     
-    var token = params.access_token;
+    var clientId = localStorage.getItem("spotify_client_id");
+    var codeVerifier = localStorage.getItem("spotify_code_verifier");
+    var redirectUri = window.location.origin + window.location.pathname;
     
-    if (window.history && window.history.replaceState) {
-      window.history.replaceState("", document.title, window.location.pathname + window.location.search);
-    } else {
-      window.location.hash = "";
+    if (!clientId || !codeVerifier) {
+      showStatus("Erro: Informações de autenticação ausentes.", "error");
+      localStorage.removeItem("spotify_pending_playlist");
+      localStorage.removeItem("spotify_code_verifier");
+      return;
     }
     
-    createSpotifyPlaylist(token, pending);
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState("", document.title, window.location.pathname);
+    }
+    
+    fetch("https://accounts.spotify.com/api/token", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: new URLSearchParams({
+        client_id: clientId,
+        grant_type: "authorization_code",
+        code: code,
+        redirect_uri: redirectUri,
+        code_verifier: codeVerifier
+      })
+    })
+    .then(function (res) {
+      if (!res.ok) {
+        return res.json().then(function (errData) {
+          throw new Error(errData.error_description || "Falha ao obter token de acesso.");
+        });
+      }
+      return res.json();
+    })
+    .then(function (data) {
+      localStorage.removeItem("spotify_code_verifier");
+      createSpotifyPlaylist(data.access_token, pending);
+    })
+    .catch(function (err) {
+      showStatus("Erro de autenticação: " + err.message, "error");
+      localStorage.removeItem("spotify_pending_playlist");
+      localStorage.removeItem("spotify_code_verifier");
+    });
   }
 
   searchInput.addEventListener("input", renderResults);
