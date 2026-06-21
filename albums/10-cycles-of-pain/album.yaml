@@ -82,6 +82,17 @@ tracklist:
   title: Tears of Blood
   duration: '5:35'
   instrumental: false
+ratings:
+  - site: "AllMusic"
+    score: "4/5"
+    url: "https://www.allmusic.com/album/cycles-of-pain-mw0004107616"
+  - site: "Metal Archives"
+    score: "82%"
+    url: "https://www.metal-archives.com/reviews/Angra/Cycles_of_Pain/1169335/"
+  - site: "Metal Storm"
+    score: "8.0/10"
+    url: "https://www.metalstorm.net/pub/review.php?review_id=16260"
+
 history:
   summary: Cycles of Pain é o décimo álbum de estúdio da Angra e o primeiro em cinco anos após ØMNI (2018). Lançado em 3 de
     novembro de 2023 pela Atomic Fire Records, o disco marca o retorno da banda ao power/progressive metal clássico com produção,

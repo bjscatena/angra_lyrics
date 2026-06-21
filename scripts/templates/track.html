@@ -27,9 +27,26 @@
   <h1>{{ track.title }}</h1>
   <p class="track-meta">
     {{ popularity_score(track.popularity | default(0)) }}
-    {% if track.authors %}{{ track.authors | join(', ') }}{% endif %}
+    {% if track.authors %} · {{ track.authors | join(', ') }}{% endif %}
     {% if track.duration %} · {{ track.duration }}{% endif %}
   </p>
+  {% if track.ratings %}
+  <div class="ratings-container">
+    {% for rating in track.ratings %}
+      {% if rating.url %}
+      <a href="{{ rating.url }}" target="_blank" rel="noopener noreferrer" class="rating-badge rating-badge--link" title="Ver avaliação em {{ rating.site }}">
+        <span class="rating-badge-site">{{ rating.site }}:</span>
+        <span class="rating-badge-score">{{ rating.score }}</span>
+      </a>
+      {% else %}
+      <span class="rating-badge">
+        <span class="rating-badge-site">{{ rating.site }}:</span>
+        <span class="rating-badge-score">{{ rating.score }}</span>
+      </span>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
 </header>
 
 {% if track.instrumental %}

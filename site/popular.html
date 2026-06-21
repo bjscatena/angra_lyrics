@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Faixas populares — Angra Lyrics</title>
-  <meta name="description" content="Busque e explore as faixas da Angra ordenadas por popularidade.">
-  <meta property="og:title" content="Faixas populares — Angra Lyrics">
-  <meta property="og:description" content="Busque e explore as faixas da Angra ordenadas por popularidade.">
+  <title>Músicas — Angra Lyrics</title>
+  <meta name="description" content="Busque, filtre e ordene as músicas da Angra por popularidade ou nota dos críticos.">
+  <meta property="og:title" content="Músicas — Angra Lyrics">
+  <meta property="og:description" content="Busque, filtre e ordene as músicas da Angra por popularidade ou nota dos críticos.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bjscatena.github.io/angra_lyrics/popular.html">
   
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=1780807466">
+  <link rel="stylesheet" href="css/style.css?v=1782052623">
   
 </head>
-<body data-asset-prefix="" data-asset-version="1780807466">
+<body data-asset-prefix="" data-asset-version="1782052623">
   <header class="site-header">
     <div class="container">
       <a class="site-logo" href="index.html">Angra Lyrics</a>
       <nav class="site-nav" aria-label="Principal">
         <a href="index.html">Discografia</a>
-        <a href="popular.html">Populares</a>
+        <a href="popular.html">Músicas</a>
+        <a href="critics.html">Avaliações</a>
       </nav>
     </div>
   </header>
@@ -31,15 +32,15 @@
 <nav class="breadcrumb" aria-label="Navegação">
   <a href="index.html">Home</a>
   <span aria-hidden="true">›</span>
-  <span>Faixas populares</span>
+  <span>Músicas</span>
 </nav>
 
 <section class="hero hero--compact">
-  <h1>Faixas populares</h1>
-  <p class="hero-subtitle">Busque por título ou álbum e filtre por popularidade (nota de 0 a 10).</p>
+  <h1>Músicas</h1>
+  <p class="hero-subtitle">Busque por título ou álbum e ordene/filtre por popularidade ou nota dos críticos (0 a 10).</p>
 </section>
 
-<section class="popular-section" aria-label="Busca e listagem de faixas populares">
+<section class="popular-section" aria-label="Busca e listagem de faixas">
   <div class="popular-controls">
     <div class="search-box" role="search">
       <label for="popular-search" class="visually-hidden">Buscar faixas por título ou álbum</label>
@@ -53,12 +54,22 @@
       >
     </div>
 
-    <div class="popular-filters" role="group" aria-label="Filtrar por popularidade mínima">
-      <span class="popular-filters-label">Mínimo:</span>
-      <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
-      <button type="button" class="filter-btn" data-min-score="5">5+</button>
-      <button type="button" class="filter-btn" data-min-score="7">7+</button>
-      <button type="button" class="filter-btn" data-min-score="9">9+</button>
+    <div class="popular-options">
+      <div class="popular-filters" role="group" aria-label="Filtrar por nota mínima">
+        <span id="filter-label-text" class="popular-filters-label">Mínimo:</span>
+        <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
+        <button type="button" class="filter-btn" data-min-score="5">5+</button>
+        <button type="button" class="filter-btn" data-min-score="7">7+</button>
+        <button type="button" class="filter-btn" data-min-score="9">9+</button>
+      </div>
+
+      <div class="sort-control">
+        <label for="popular-sort" class="popular-filters-label">Ordenar por:</label>
+        <select id="popular-sort" class="sort-select">
+          <option value="popularity">Popularidade (Fãs)</option>
+          <option value="critic">Nota dos Críticos</option>
+        </select>
+      </div>
     </div>
   </div>
 
@@ -78,10 +89,10 @@
     </div>
   </footer>
 
-  <script src="js/popularity.js?v=1780807466"></script>
-  <script src="js/main.js?v=1780807466"></script>
+  <script src="js/popularity.js?v=1782052623"></script>
+  <script src="js/main.js?v=1782052623"></script>
   
-<script src="js/popular.js?v=1780807466"></script>
+<script src="js/popular.js?v=1782052623"></script>
 
 </body>
 </html>

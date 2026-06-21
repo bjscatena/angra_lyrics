@@ -131,6 +131,14 @@ research:
     url: http://www.darklyrics.com/lyrics/angra/omni.html
     type: database
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "3.06/5"
+  - site: "Metal Kingdom"
+    score: "57%"
+  - site: "Spirit of Metal"
+    score: "13/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

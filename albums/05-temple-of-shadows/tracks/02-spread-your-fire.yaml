@@ -152,6 +152,14 @@ research:
     accessed: '2026-06-06'
   interpretation: 'A canção inaugura a teologia heterodoxa do álbum: Lúcifer e Satanás como facetas da criação divina, não
     inimigos absolutos.'
+ratings:
+  - site: "Rate Your Music"
+    score: "4.15/5"
+  - site: "Metal Kingdom"
+    score: "89%"
+  - site: "Spirit of Metal"
+    score: "17/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

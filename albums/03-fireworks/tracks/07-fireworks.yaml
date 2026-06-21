@@ -140,6 +140,14 @@ research:
     url: https://en.wikipedia.org/wiki/Fireworks_(Angra_album)
     type: article
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "3.41/5"
+  - site: "Metal Kingdom"
+    score: "70%"
+  - site: "Spirit of Metal"
+    score: "14/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

@@ -70,6 +70,17 @@ tracklist:
     duration: "7:34"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "4/5"
+    url: "https://www.allmusic.com/album/angels-cry-mw0000109935"
+  - site: "Metal Archives"
+    score: "89%"
+    url: "https://www.metal-archives.com/reviews/Angra/Angels_Cry/58/"
+  - site: "Metal Storm"
+    score: "8.6/10"
+    url: "https://www.metalstorm.net/pub/review.php?review_id=184"
+
 history:
   summary: |
     Angels Cry é o álbum de estreia da Angra, lançado em novembro de 1993 e gravado na

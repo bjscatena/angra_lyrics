@@ -159,6 +159,14 @@ research:
     accessed: '2026-06-06'
   interpretation: A galeria de quadros metaforiza a vida reduzida a imagens congeladas — morto em vida, exposto ao julgamento
     alheio e ao próprio.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.38/5"
+  - site: "Metal Kingdom"
+    score: "73%"
+  - site: "Spirit of Metal"
+    score: "15/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

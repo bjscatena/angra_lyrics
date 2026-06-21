@@ -70,6 +70,17 @@ tracklist:
     duration: "5:57"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "3/5"
+    url: "https://www.allmusic.com/album/fireworks-mw0000045657"
+  - site: "Metal Archives"
+    score: "75%"
+    url: "https://www.metal-archives.com/reviews/Angra/Fireworks/60/"
+  - site: "Sputnikmusic"
+    score: "3.5/5"
+    url: "https://www.sputnikmusic.com/review/38203/Angra-Fireworks/"
+
 history:
   summary: |
     Fireworks é o terceiro álbum de estúdio da Angra, lançado em julho de 1998 e gravado

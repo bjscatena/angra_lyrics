@@ -194,6 +194,14 @@ research:
     type: article
     accessed: '2026-06-06'
   interpretation: A tese 'não há dor para os mortos' antecipa a aceitação da morte em 'Late Redemption'.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.57/5"
+  - site: "Metal Kingdom"
+    score: "70%"
+  - site: "Spirit of Metal"
+    score: "13/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

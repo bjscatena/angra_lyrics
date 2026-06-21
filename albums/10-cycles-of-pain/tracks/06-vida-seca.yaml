@@ -154,6 +154,14 @@ research:
     accessed: '2026-06-06'
   interpretation: A transição PT→EN reflete a jornada do personagem do Nordeste brasileiro à conquista de oportunidades —
     crítica poética à desigualdade.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.26/5"
+  - site: "Metal Kingdom"
+    score: "65%"
+  - site: "Spirit of Metal"
+    score: "11/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

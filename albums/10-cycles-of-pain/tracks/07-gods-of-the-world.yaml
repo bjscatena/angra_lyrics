@@ -150,6 +150,14 @@ research:
     url: https://www.metalkingdom.net/band/angra-31
     type: database
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "2.94/5"
+  - site: "Metal Kingdom"
+    score: "63%"
+  - site: "Spirit of Metal"
+    score: "11/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

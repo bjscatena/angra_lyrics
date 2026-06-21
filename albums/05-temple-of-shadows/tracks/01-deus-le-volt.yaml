@@ -29,6 +29,14 @@ research:
     url: https://en.wikipedia.org/wiki/Temple_of_Shadows
     type: article
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "2.93/5"
+  - site: "Metal Kingdom"
+    score: "55%"
+  - site: "Spirit of Metal"
+    score: "11/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

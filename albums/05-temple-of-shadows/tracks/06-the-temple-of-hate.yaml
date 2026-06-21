@@ -102,6 +102,14 @@ research:
     type: article
     accessed: '2026-06-06'
   interpretation: O título ironiza a instituição que deveria proteger a fé mas perpetua o ódio — núcleo trágico da narrativa.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.67/5"
+  - site: "Metal Kingdom"
+    score: "80%"
+  - site: "Spirit of Metal"
+    score: "16/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

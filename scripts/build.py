@@ -51,6 +51,44 @@ def normalize_base_path(path: str) -> str:
     return path
 
 
+def parse_score(score_str: str) -> float | None:
+    if not score_str:
+        return None
+    score_str = score_str.strip()
+    if score_str.endswith("%"):
+        try:
+            return float(score_str[:-1]) / 100.0 * 10.0
+        except ValueError:
+            return None
+    if "/" in score_str:
+        try:
+            parts = score_str.split("/")
+            if len(parts) == 2:
+                numerator = float(parts[0])
+                denominator = float(parts[1])
+                if denominator != 0:
+                    return numerator / denominator * 10.0
+        except ValueError:
+            return None
+    try:
+        return float(score_str)
+    except ValueError:
+        return None
+
+
+def calculate_critic_score(ratings: list[dict]) -> float | None:
+    if not ratings:
+        return None
+    scores = []
+    for r in ratings:
+        score_val = parse_score(r.get("score", ""))
+        if score_val is not None:
+            scores.append(score_val)
+    if not scores:
+        return None
+    return round(sum(scores) / len(scores), 2)
+
+
 def asset_prefix_for(depth: int) -> str:
     """Relative prefix for assets and internal links (works locally and on GitHub Pages)."""
     return "../" * depth if depth > 0 else ""
@@ -134,6 +172,7 @@ def build_search_index(albums_data: list[dict]) -> list[dict]:
                     "url": f"albums/{album_id}/{page_name}",
                     "summary": (track.get("research") or {}).get("summary", ""),
                     "popularity": track.get("popularity", 0),
+                    "critic_score": track.get("critic_score", 0),
                 }
             )
     return index
@@ -200,6 +239,7 @@ def build_site(skip_validate: bool = False) -> None:
             "url": f"albums/{album_id}/index.html",
             "cover_url": None,
             "tracks": [],
+            "critic_score": None,
         }
 
         if album_data:
@@ -208,6 +248,8 @@ def build_site(skip_validate: bool = False) -> None:
             album_entry["lineup"] = album_data.get("lineup", [])
             album_entry["history"] = album_data.get("history", {})
             album_entry["assets"] = album_data.get("assets", {})
+            album_entry["ratings"] = album_data.get("ratings", [])
+            album_entry["critic_score"] = calculate_critic_score(album_entry["ratings"])
 
             cover_url = copy_assets(album_dir, album_id, output_dir)
             album_entry["cover_url"] = cover_url
@@ -223,6 +265,7 @@ def build_site(skip_validate: bool = False) -> None:
                 page_name = track_page_name(track_file)
 
                 track_id = track_data.get("id") or f"{album_id}-{Path(track_file).stem}"
+                track_ratings = track_data.get("ratings", [])
                 track_entry = {
                     **track_data,
                     "number": item.get("number"),
@@ -231,6 +274,7 @@ def build_site(skip_validate: bool = False) -> None:
                     "url": page_name,
                     "page_name": page_name,
                     "popularity": popularity_map.get(track_id, 0),
+                    "critic_score": calculate_critic_score(track_ratings),
                 }
                 tracks.append(track_entry)
 
@@ -289,6 +333,26 @@ def build_site(skip_validate: bool = False) -> None:
         **render_context,
     )
     (output_dir / "popular.html").write_text(popular_html, encoding="utf-8")
+
+    # Filter albums that have content and sort them by critic_score descending
+    albums_by_rating = sorted(
+        [a for a in albums_output if a.get("has_content") and a.get("critic_score") is not None],
+        key=lambda x: x["critic_score"],
+        reverse=True,
+    )
+    # Add pending albums at the end
+    pending_albums = [a for a in albums_output if not a.get("has_content") or a.get("critic_score") is None]
+    albums_sorted = albums_by_rating + pending_albums
+
+    critics_html = render(
+        env,
+        "critics.html",
+        asset_prefix=index_prefix,
+        albums=albums_sorted,
+        page_url=absolute_url(site_url, base_path, "critics.html"),
+        **render_context,
+    )
+    (output_dir / "critics.html").write_text(critics_html, encoding="utf-8")
 
     search_index = build_search_index([a for a in albums_output if a.get("tracks")])
     (output_dir / "search-index.json").write_text(

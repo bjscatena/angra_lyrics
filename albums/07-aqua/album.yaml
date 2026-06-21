@@ -70,6 +70,17 @@ tracklist:
     duration: "5:05"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "3.5/5"
+    url: "https://www.allmusic.com/album/aqua-mw0002047814"
+  - site: "Metal Archives"
+    score: "70%"
+    url: "https://www.metal-archives.com/reviews/Angra/Aqua/281086/"
+  - site: "Sputnikmusic"
+    score: "3.4/5"
+    url: "https://www.sputnikmusic.com/review/39735/Angra-Aqua/"
+
 history:
   summary: |
     Aqua é o sétimo álbum de estúdio da Angra e o último com Edu Falaschi nos vocais principais.

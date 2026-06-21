@@ -152,6 +152,17 @@ tracklist:
 
 
 
+ratings:
+  - site: "AllMusic"
+    score: "4/5"
+    url: "https://www.allmusic.com/album/omni-mw0003138804"
+  - site: "Metal Archives"
+    score: "79%"
+    url: "https://www.metal-archives.com/reviews/Angra/%C3%98MNI/690553/"
+  - site: "Sputnikmusic"
+    score: "3.7/5"
+    url: "https://www.sputnikmusic.com/review/76378/Angra-OMNI/"
+
 history:
   summary: >-
     ØMNI é o nono álbum de estúdio da Angra e o primeiro após a saída de Kiko Loureiro para o

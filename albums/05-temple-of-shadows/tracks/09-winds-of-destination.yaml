@@ -164,6 +164,14 @@ research:
     type: article
     accessed: '2026-06-06'
   interpretation: A letra conecta a Ordem do Templo à busca por religião universal e liberdade intelectual.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.82/5"
+  - site: "Metal Kingdom"
+    score: "74%"
+  - site: "Spirit of Metal"
+    score: "14/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

@@ -70,6 +70,17 @@ tracklist:
     duration: "3:48"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "3.5/5"
+    url: "https://www.allmusic.com/album/secret-garden-mw0002796120"
+  - site: "Metal Archives"
+    score: "74%"
+    url: "https://www.metal-archives.com/reviews/Angra/Secret_Garden/479154/"
+  - site: "Metal Storm"
+    score: "7.7/10"
+    url: "https://www.metalstorm.net/pub/review.php?review_id=12513"
+
 history:
   summary: |
     Secret Garden é o oitavo álbum de estúdio da Angra e marca a estreia de Fabio Lione nos

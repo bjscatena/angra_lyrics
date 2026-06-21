@@ -193,6 +193,14 @@ research:
     url: https://www.letras.mus.br/angra/1798/
     type: database
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "3.29/5"
+  - site: "Metal Kingdom"
+    score: "65%"
+  - site: "Spirit of Metal"
+    score: "11/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

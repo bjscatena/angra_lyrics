@@ -70,6 +70,17 @@ tracklist:
     duration: "4:32"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "4/5"
+    url: "https://www.allmusic.com/album/rebirth-mw0000591522"
+  - site: "Metal Archives"
+    score: "88%"
+    url: "https://www.metal-archives.com/reviews/Angra/Rebirth/2117/"
+  - site: "Metal Storm"
+    score: "8.8/10"
+    url: "https://www.metalstorm.net/pub/review.php?review_id=183"
+
 history:
   summary: |
     Rebirth é o quarto álbum de estúdio da Angra e marca o retorno triunfante da banda após

@@ -167,6 +167,14 @@ research:
     accessed: '2026-06-06'
   interpretation: O refrão titular cristaliza o conceito do disco — dor recorrente como condição humana, não como sentença
     final.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.38/5"
+  - site: "Metal Kingdom"
+    score: "67%"
+  - site: "Spirit of Metal"
+    score: "15/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

@@ -31,6 +31,14 @@ research:
     url: https://en.wikipedia.org/wiki/Angels_Cry_(album)
     type: article
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "2.87/5"
+  - site: "Metal Kingdom"
+    score: "61%"
+  - site: "Spirit of Metal"
+    score: "11/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

@@ -85,6 +85,17 @@ tracklist:
     duration: "5:05"
     instrumental: true
 
+ratings:
+  - site: "AllMusic"
+    score: "4.5/5"
+    url: "https://www.allmusic.com/album/temple-of-shadows-mw0000339908"
+  - site: "Metal Archives"
+    score: "93%"
+    url: "https://www.metal-archives.com/reviews/Angra/Temple_of_Shadows/51624/"
+  - site: "Sputnikmusic"
+    score: "4.4/5"
+    url: "https://www.sputnikmusic.com/review/52486/Angra-Temple-of-Shadows/"
+
 history:
   summary: |
     Temple of Shadows é o quinto álbum de estúdio da Angra e o primeiro álbum conceitual completo

@@ -1,23 +1,23 @@
 {% extends "base.html" %}
 
-{% block title %}Faixas populares — {{ site_title }}{% endblock %}
-{% block description %}Busque e explore as faixas da Angra ordenadas por popularidade.{% endblock %}
-{% block og_title %}Faixas populares — {{ site_title }}{% endblock %}
-{% block og_description %}Busque e explore as faixas da Angra ordenadas por popularidade.{% endblock %}
+{% block title %}Músicas — {{ site_title }}{% endblock %}
+{% block description %}Busque, filtre e ordene as músicas da Angra por popularidade ou nota dos críticos.{% endblock %}
+{% block og_title %}Músicas — {{ site_title }}{% endblock %}
+{% block og_description %}Busque, filtre e ordene as músicas da Angra por popularidade ou nota dos críticos.{% endblock %}
 
 {% block content %}
 <nav class="breadcrumb" aria-label="Navegação">
   <a href="{{ asset_prefix }}index.html">Home</a>
   <span aria-hidden="true">›</span>
-  <span>Faixas populares</span>
+  <span>Músicas</span>
 </nav>
 
 <section class="hero hero--compact">
-  <h1>Faixas populares</h1>
-  <p class="hero-subtitle">Busque por título ou álbum e filtre por popularidade (nota de 0 a 10).</p>
+  <h1>Músicas</h1>
+  <p class="hero-subtitle">Busque por título ou álbum e ordene/filtre por popularidade ou nota dos críticos (0 a 10).</p>
 </section>
 
-<section class="popular-section" aria-label="Busca e listagem de faixas populares">
+<section class="popular-section" aria-label="Busca e listagem de faixas">
   <div class="popular-controls">
     <div class="search-box" role="search">
       <label for="popular-search" class="visually-hidden">Buscar faixas por título ou álbum</label>
@@ -31,12 +31,22 @@
       >
     </div>
 
-    <div class="popular-filters" role="group" aria-label="Filtrar por popularidade mínima">
-      <span class="popular-filters-label">Mínimo:</span>
-      <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
-      <button type="button" class="filter-btn" data-min-score="5">5+</button>
-      <button type="button" class="filter-btn" data-min-score="7">7+</button>
-      <button type="button" class="filter-btn" data-min-score="9">9+</button>
+    <div class="popular-options">
+      <div class="popular-filters" role="group" aria-label="Filtrar por nota mínima">
+        <span id="filter-label-text" class="popular-filters-label">Mínimo:</span>
+        <button type="button" class="filter-btn active" data-min-score="0">Todas</button>
+        <button type="button" class="filter-btn" data-min-score="5">5+</button>
+        <button type="button" class="filter-btn" data-min-score="7">7+</button>
+        <button type="button" class="filter-btn" data-min-score="9">9+</button>
+      </div>
+
+      <div class="sort-control">
+        <label for="popular-sort" class="popular-filters-label">Ordenar por:</label>
+        <select id="popular-sort" class="sort-select">
+          <option value="popularity">Popularidade (Fãs)</option>
+          <option value="critic">Nota dos Críticos</option>
+        </select>
+      </div>
     </div>
   </div>
 

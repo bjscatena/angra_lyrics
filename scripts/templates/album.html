@@ -36,6 +36,23 @@
       <span>{{ album.release.label }}</span>
       {% endif %}
     </p>
+    {% if album.ratings %}
+    <div class="ratings-container">
+      {% for rating in album.ratings %}
+        {% if rating.url %}
+        <a href="{{ rating.url }}" target="_blank" rel="noopener noreferrer" class="rating-badge rating-badge--link" title="Ver avaliação em {{ rating.site }}">
+          <span class="rating-badge-site">{{ rating.site }}:</span>
+          <span class="rating-badge-score">{{ rating.score }}</span>
+        </a>
+        {% else %}
+        <span class="rating-badge">
+          <span class="rating-badge-site">{{ rating.site }}:</span>
+          <span class="rating-badge-score">{{ rating.score }}</span>
+        </span>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </header>
 

@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ALBUMS_DIR = ROOT / "albums"
 POPULARITY_PATH = ROOT / "scripts" / "popularity.yaml"
 
-ALBUM_REQUIRED = ("id", "title", "type", "release", "tracklist", "history", "assets")
-TRACK_REQUIRED = ("id", "album_id", "track_number", "title", "language", "research", "metadata")
+ALBUM_REQUIRED = ("id", "title", "type", "release", "tracklist", "history", "assets", "ratings")
+TRACK_REQUIRED = ("id", "album_id", "track_number", "title", "language", "research", "metadata", "ratings")
 TRACK_VOCAL_REQUIRED = ("lyrics",)
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -62,6 +62,13 @@ def validate_album(album_dir: Path) -> list[str]:
     try:
         album = load_yaml(album_path)
         require_fields(album, ALBUM_REQUIRED, ctx)
+
+        ratings = album.get("ratings", [])
+        if not isinstance(ratings, list) or len(ratings) != 3:
+            raise ValidationError("R01", f"{ctx}: 'ratings' must be a list of exactly 3 items")
+        for i, r in enumerate(ratings):
+            if not isinstance(r, dict) or "site" not in r or "score" not in r:
+                raise ValidationError("R01", f"{ctx}: rating {i} must be a mapping with 'site' and 'score'")
 
         if album.get("id") != slug:
             raise ValidationError("R04", f"{ctx}: id '{album.get('id')}' does not match folder '{slug}'")
@@ -121,6 +128,13 @@ def validate_track(track_path: Path, album_slug: str, tracklist_entry: dict) -> 
     try:
         track = load_yaml(track_path)
         require_fields(track, TRACK_REQUIRED, ctx)
+
+        ratings = track.get("ratings", [])
+        if not isinstance(ratings, list) or len(ratings) != 3:
+            raise ValidationError("R01", f"{ctx}: 'ratings' must be a list of exactly 3 items")
+        for i, r in enumerate(ratings):
+            if not isinstance(r, dict) or "site" not in r or "score" not in r:
+                raise ValidationError("R01", f"{ctx}: rating {i} must be a mapping with 'site' and 'score'")
 
         if track.get("album_id") != album_slug:
             raise ValidationError(

@@ -125,6 +125,14 @@ research:
     url: https://en.wikipedia.org/wiki/Aurora_Consurgens_(album)
     type: article
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "3.51/5"
+  - site: "Metal Kingdom"
+    score: "73%"
+  - site: "Spirit of Metal"
+    score: "15/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

@@ -70,6 +70,17 @@ tracklist:
     duration: "3:09"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "3/5"
+    url: "https://www.allmusic.com/album/aurora-consurgens-mw0001034639"
+  - site: "Metal Archives"
+    score: "73%"
+    url: "https://www.metal-archives.com/reviews/Angra/Aurora_Consurgens/130190/"
+  - site: "Metal Storm"
+    score: "7.5/10"
+    url: "https://www.metalstorm.net/pub/review.php?review_id=3197"
+
 history:
   summary: |
     Aurora Consurgens é o sexto álbum de estúdio da Angra e o último com Aquiles Priester na bateria.

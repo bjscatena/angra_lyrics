@@ -115,6 +115,14 @@ research:
     accessed: '2026-06-06'
   interpretation: 'A letra articula o núcleo filosófico do álbum: a rejeição de verdades absolutas e a percepção de que bem
     e mal são construções humanas.'
+ratings:
+  - site: "Rate Your Music"
+    score: "4.12/5"
+  - site: "Metal Kingdom"
+    score: "86%"
+  - site: "Spirit of Metal"
+    score: "17/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

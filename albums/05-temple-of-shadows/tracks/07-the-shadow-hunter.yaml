@@ -219,6 +219,14 @@ research:
     type: article
     accessed: '2026-06-06'
   interpretation: A declaração 'Jesus was a man' e a negação de atributos humanos a Deus reforçam a gnose do álbum.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.66/5"
+  - site: "Metal Kingdom"
+    score: "75%"
+  - site: "Spirit of Metal"
+    score: "13/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

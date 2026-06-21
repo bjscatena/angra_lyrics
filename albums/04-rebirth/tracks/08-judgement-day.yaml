@@ -137,6 +137,14 @@ research:
     url: http://www.darklyrics.com/lyrics/angra/rebirth.html
     type: database
     accessed: '2026-06-06'
+ratings:
+  - site: "Rate Your Music"
+    score: "3.28/5"
+  - site: "Metal Kingdom"
+    score: "69%"
+  - site: "Spirit of Metal"
+    score: "14/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

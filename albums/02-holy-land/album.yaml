@@ -70,6 +70,17 @@ tracklist:
     duration: "2:42"
     instrumental: false
 
+ratings:
+  - site: "AllMusic"
+    score: "4/5"
+    url: "https://www.allmusic.com/album/holy-land-mw0000180479"
+  - site: "Metal Archives"
+    score: "92%"
+    url: "https://www.metal-archives.com/reviews/Angra/Holy_Land/59/"
+  - site: "Sputnikmusic"
+    score: "4.2/5"
+    url: "https://www.sputnikmusic.com/review/38202/Angra-Holy-Land/"
+
 history:
   summary: |
     Holy Land é o segundo álbum de estúdio da Angra, lançado em março de 1996 e considerado por

@@ -171,6 +171,14 @@ research:
     type: database
     accessed: '2026-06-06'
   interpretation: A metáfora da tempestade representa crise e renascimento; divididos somos feras, unidos soldados da luz.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.50/5"
+  - site: "Metal Kingdom"
+    score: "64%"
+  - site: "Spirit of Metal"
+    score: "15/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'

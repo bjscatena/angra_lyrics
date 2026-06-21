@@ -101,6 +101,14 @@ research:
     accessed: '2026-06-06'
   interpretation: A canção funciona como meditação filosófica sobre a natureza da crença, contrastando com o fanatismo de
     'The Temple of Hate'.
+ratings:
+  - site: "Rate Your Music"
+    score: "3.54/5"
+  - site: "Metal Kingdom"
+    score: "72%"
+  - site: "Spirit of Metal"
+    score: "15/20"
+
 metadata:
   status: complete
   last_updated: '2026-06-06'
